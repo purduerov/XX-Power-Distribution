@@ -2675,6 +2675,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BANANA_CONN">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2919,6 +2950,8 @@ design rules under a new name.</description>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="-49.53" y="-72.39">
 <attribute name="PROD_ID" value="RES-00824" x="-55.88" y="-60.96" size="1.778" layer="27" display="off"/>
 </element>
+<element name="J1" library="SparkFun-Connectors" package="BANANA_CONN" value="" x="-25.4" y="-101.6"/>
+<element name="J2" library="SparkFun-Connectors" package="BANANA_CONN" value="" x="-25.4" y="-156.21"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3038,6 +3071,8 @@ design rules under a new name.</description>
 <contactref element="U$7" pad="3"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R3" pad="1"/>
+<contactref element="J2" pad="P$1"/>
+<wire x1="-42.76" y1="-46.99" x2="-25.4" y2="-156.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.5" y1="21.36" x2="-42.76" y2="-46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.4" y1="51.07" x2="-15.5" y2="21.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.95" y1="57.15" x2="-45.4" y2="51.07" width="0" layer="19" extent="1-1"/>
@@ -3066,6 +3101,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="+48V_RAW">
 <contactref element="Q1" pad="3"/>
+<contactref element="J1" pad="P$1"/>
+<wire x1="-46.99" y1="-28.25" x2="-25.4" y2="-101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+48_SNS">
 <contactref element="U$1" pad="3"/>
