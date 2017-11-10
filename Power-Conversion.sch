@@ -202,6 +202,58 @@
 <vertex x="2.5654" y="2.567"/>
 </polygon>
 </package>
+<package name="POWER-BRICK-CONNECTOR">
+<pad name="P$1" x="-1.27" y="-34.29" drill="1"/>
+<pad name="P$2" x="1.27" y="-34.29" drill="1"/>
+<pad name="P$3" x="-1.27" y="-31.75" drill="1"/>
+<pad name="P$4" x="1.27" y="-31.75" drill="1"/>
+<pad name="P$5" x="-1.27" y="-29.21" drill="1"/>
+<pad name="P$6" x="1.27" y="-29.21" drill="1"/>
+<pad name="P$7" x="-1.27" y="-26.67" drill="1"/>
+<pad name="P$8" x="1.27" y="-26.67" drill="1"/>
+<pad name="P$9" x="-1.27" y="-24.13" drill="1"/>
+<pad name="P$10" x="1.27" y="-24.13" drill="1"/>
+<pad name="P$11" x="-1.27" y="-21.59" drill="1"/>
+<pad name="P$12" x="1.27" y="-21.59" drill="1"/>
+<pad name="P$13" x="-1.27" y="-19.05" drill="1"/>
+<pad name="P$14" x="1.27" y="-19.05" drill="1"/>
+<pad name="P$15" x="-1.27" y="-16.51" drill="1"/>
+<pad name="P$16" x="1.27" y="-16.51" drill="1"/>
+<pad name="P$17" x="-1.27" y="-13.97" drill="1"/>
+<pad name="P$18" x="1.27" y="-13.97" drill="1"/>
+<pad name="P$19" x="-1.27" y="-11.43" drill="1"/>
+<pad name="P$20" x="1.27" y="-11.43" drill="1"/>
+<pad name="P$21" x="-1.27" y="-8.89" drill="1"/>
+<pad name="P$22" x="1.27" y="-8.89" drill="1"/>
+<pad name="P$23" x="-1.27" y="-6.35" drill="1"/>
+<pad name="P$24" x="1.27" y="-6.35" drill="1"/>
+<pad name="P$25" x="-1.27" y="-3.81" drill="1"/>
+<pad name="P$26" x="1.27" y="-3.81" drill="1"/>
+<pad name="P$27" x="-1.27" y="-1.27" drill="1"/>
+<pad name="P$28" x="1.27" y="-1.27" drill="1"/>
+<pad name="P$29" x="-1.27" y="1.27" drill="1"/>
+<pad name="P$30" x="1.27" y="1.27" drill="1"/>
+<pad name="P$31" x="-1.27" y="3.81" drill="1"/>
+<pad name="P$32" x="1.27" y="3.81" drill="1"/>
+<pad name="P$33" x="-1.27" y="6.35" drill="1"/>
+<pad name="P$34" x="1.27" y="6.35" drill="1"/>
+<pad name="P$35" x="-1.27" y="8.89" drill="1"/>
+<pad name="P$36" x="1.27" y="8.89" drill="1"/>
+<pad name="P$37" x="-1.27" y="11.43" drill="1"/>
+<pad name="P$38" x="1.27" y="11.43" drill="1"/>
+<pad name="P$39" x="-1.27" y="13.97" drill="1"/>
+<pad name="P$40" x="1.27" y="13.97" drill="1"/>
+<pad name="P$41" x="-1.27" y="16.51" drill="1"/>
+<pad name="P$42" x="1.27" y="16.51" drill="1"/>
+<pad name="P$43" x="-1.27" y="19.05" drill="1"/>
+<pad name="P$44" x="1.27" y="19.05" drill="1"/>
+<pad name="P$45" x="-1.27" y="21.59" drill="1"/>
+<pad name="P$46" x="1.27" y="21.59" drill="1"/>
+<pad name="P$47" x="-1.27" y="24.13" drill="1"/>
+<pad name="P$48" x="1.27" y="24.13" drill="1"/>
+<pad name="P$49" x="-1.27" y="26.67" drill="1"/>
+<pad name="P$50" x="1.27" y="26.67" drill="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-ZENER">
@@ -260,6 +312,14 @@
 <vertex x="1.27" y="-0.762"/>
 </polygon>
 </symbol>
+<symbol name="POWER-BRICK-CONNECTOR">
+<pin name="P$1" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="P$2" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ZENER-SOT23">
@@ -294,6 +354,22 @@
 <attribute name="PN-DIGI" value="497-4329-1-ND"/>
 <attribute name="VDSS" value="60V"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POWER-BRICK-CONNECTOR">
+<gates>
+<gate name="G$1" symbol="POWER-BRICK-CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER-BRICK-CONNECTOR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26"/>
+<connect gate="G$1" pin="P$2" pad="P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10726,6 +10802,108 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="12V">
+<description>&lt;h3&gt;12V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="12V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="12V" prefix="SUPPLY">
+<description>&lt;h3&gt;12V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 12V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SAMTEC-10">
+<packages>
+<package name="POWER-CONNECTOR">
+<pad name="P$1" x="-1.27" y="-5.08" drill="1"/>
+<pad name="P$2" x="1.27" y="-5.08" drill="1"/>
+<pad name="P$3" x="-1.27" y="-2.54" drill="1"/>
+<pad name="P$4" x="1.27" y="-2.54" drill="1"/>
+<pad name="P$5" x="-1.27" y="0" drill="1"/>
+<pad name="P$6" x="1.27" y="0" drill="1"/>
+<pad name="P$7" x="-1.27" y="2.54" drill="1"/>
+<pad name="P$8" x="1.27" y="2.54" drill="1"/>
+<pad name="P$9" x="-1.27" y="5.08" drill="1"/>
+<pad name="P$10" x="1.27" y="5.08" drill="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="10PIN-SAMTEC">
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="P$1" x="-15.24" y="10.16" length="middle"/>
+<pin name="P$2" x="-15.24" y="5.08" length="middle"/>
+<pin name="P$3" x="-15.24" y="0" length="middle"/>
+<pin name="P$4" x="-15.24" y="-5.08" length="middle"/>
+<pin name="P$5" x="-15.24" y="-10.16" length="middle"/>
+<pin name="P$6" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="P$7" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="P$8" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="P$9" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SAMTEC-10">
+<gates>
+<gate name="G$1" symbol="10PIN-SAMTEC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER-CONNECTOR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$9"/>
+<connect gate="G$1" pin="P$10" pad="P$2"/>
+<connect gate="G$1" pin="P$2" pad="P$7"/>
+<connect gate="G$1" pin="P$3" pad="P$5"/>
+<connect gate="G$1" pin="P$4" pad="P$3"/>
+<connect gate="G$1" pin="P$5" pad="P$1"/>
+<connect gate="G$1" pin="P$6" pad="P$10"/>
+<connect gate="G$1" pin="P$7" pad="P$8"/>
+<connect gate="G$1" pin="P$8" pad="P$6"/>
+<connect gate="G$1" pin="P$9" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10793,6 +10971,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="U$3" library="MotherboardParts" deviceset="POWER-BRICK-CONNECTOR" device=""/>
+<part name="U$8" library="MotherboardParts" deviceset="POWER-BRICK-CONNECTOR" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
+<part name="U$2" library="SAMTEC-10" deviceset="SAMTEC-10" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10881,9 +11066,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C2" gate="G$1" x="182.88" y="104.14" rot="R180"/>
 <instance part="R4" gate="G$1" x="193.04" y="101.6" rot="R90"/>
 <instance part="GND2" gate="1" x="203.2" y="91.44"/>
-<instance part="P+5" gate="1" x="180.34" y="114.3" rot="R270"/>
+<instance part="P+5" gate="1" x="172.72" y="124.46"/>
 <instance part="J1" gate="G$1" x="33.02" y="104.14"/>
 <instance part="J2" gate="G$1" x="33.02" y="99.06"/>
+<instance part="U$3" gate="G$1" x="83.82" y="421.64"/>
+<instance part="U$8" gate="G$1" x="83.82" y="452.12"/>
+<instance part="GND3" gate="1" x="101.6" y="421.64"/>
+<instance part="GND4" gate="1" x="101.6" y="436.88"/>
+<instance part="SUPPLY1" gate="G$1" x="109.22" y="421.64"/>
+<instance part="SUPPLY2" gate="G$1" x="109.22" y="464.82"/>
+<instance part="U$2" gate="G$1" x="81.28" y="492.76"/>
 </instances>
 <busses>
 </busses>
@@ -10967,6 +11159,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$2"/>
+<wire x1="96.52" y1="444.5" x2="101.6" y2="444.5" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="101.6" y1="444.5" x2="101.6" y2="439.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="96.52" y1="429.26" x2="101.6" y2="429.26" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="101.6" y1="429.26" x2="101.6" y2="424.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ONOFF" class="0">
 <segment>
@@ -11028,7 +11232,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="160.02" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="114.3" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="106.68" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11234,6 +11438,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GND7" class="0">
 <segment>
 <junction x="167.64" y="106.68"/>
+</segment>
+</net>
+<net name="12V" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="96.52" y1="414.02" x2="109.22" y2="414.02" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="12V"/>
+<wire x1="109.22" y1="414.02" x2="109.22" y2="421.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<wire x1="96.52" y1="459.74" x2="109.22" y2="459.74" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="12V"/>
+<wire x1="109.22" y1="459.74" x2="109.22" y2="464.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
