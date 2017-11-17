@@ -1218,38 +1218,6 @@ D2PAK-7</description>
 <wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="51"/>
 <wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="51"/>
 </package>
-<package name="TO254P1435X457-3N">
-<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
-<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
-<text x="-5.0292" y="-9.6774" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-3.0226" y1="-4.9276" x2="-3.0226" y2="-7.3406" width="0.1524" layer="21"/>
-<wire x1="-0.4826" y1="-4.9276" x2="-0.4826" y2="-7.3406" width="0.1524" layer="21"/>
-<wire x1="2.0574" y1="-4.9276" x2="2.0574" y2="-7.3406" width="0.1524" layer="21"/>
-<wire x1="-2.0574" y1="-4.9276" x2="-2.0574" y2="-7.3406" width="0.1524" layer="21"/>
-<wire x1="0.4826" y1="-4.9276" x2="0.4826" y2="-7.3406" width="0.1524" layer="21"/>
-<wire x1="3.0226" y1="-4.9276" x2="3.0226" y2="-7.3406" width="0.1524" layer="21"/>
-<text x="-5.0292" y="-9.6774" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-4.4704" y="5.2578" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.8166" y="-12.7508" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="SWITCHMODE_SCHOTTKY">
@@ -1301,18 +1269,6 @@ D2PAK-7</description>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-</symbol>
-<symbol name="LM1085IS-3.3">
-<pin name="IN" x="-20.32" y="0" length="middle" direction="pwr"/>
-<pin name="ADJ/GND" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="OUT" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="VOUT" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
-<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
-<text x="-4.2926" y="7.62" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.4102" y="-14.3002" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1379,31 +1335,6 @@ Buck Converter IC 12V-to-5V</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LM1085IS-3.3" prefix="U">
-<description>Low Dropout Positive Regulators</description>
-<gates>
-<gate name="A" symbol="LM1085IS-3.3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO254P1435X457-3N">
-<connects>
-<connect gate="A" pin="ADJ/GND" pad="1"/>
-<connect gate="A" pin="IN" pad="3"/>
-<connect gate="A" pin="OUT" pad="2"/>
-<connect gate="A" pin="VOUT" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="LM1085IS-3.3" constant="no"/>
-<attribute name="OC_FARNELL" value="1469039" constant="no"/>
-<attribute name="OC_NEWARK" value="41K3373" constant="no"/>
-<attribute name="PACKAGE" value="TO-263-3" constant="no"/>
-<attribute name="SUPPLIER" value="National Semiconductor" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -10895,13 +10826,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="12V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="3.3V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="12V" prefix="SUPPLY">
@@ -10909,20 +10833,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Power supply symbol for a specifically-stated 12V source.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="12V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -11005,12 +10915,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 </packages>
 <symbols>
-<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
@@ -11031,19 +10935,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -11339,12 +11230,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$2" library="SAMTEC-10" deviceset="SAMTEC-10" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
-<part name="U1" library="PowerComponents" deviceset="LM1085IS-3.3" device=""/>
-<part name="C19" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="10uF"/>
-<part name="C20" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="10uF"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U$17" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
 <part name="U$11" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
 <part name="U$12" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
@@ -11463,12 +11348,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$2" gate="G$1" x="50.8" y="505.46"/>
 <instance part="GND5" gate="1" x="83.82" y="502.92"/>
 <instance part="SUPPLY3" gate="G$1" x="17.78" y="515.62"/>
-<instance part="U1" gate="A" x="55.88" y="375.92"/>
-<instance part="C19" gate="G$1" x="27.94" y="370.84"/>
-<instance part="C20" gate="G$1" x="83.82" y="370.84"/>
-<instance part="GND6" gate="1" x="55.88" y="353.06"/>
-<instance part="P+6" gate="1" x="27.94" y="386.08"/>
-<instance part="SUPPLY4" gate="G$1" x="83.82" y="381"/>
 <instance part="U$17" gate="G$1" x="185.42" y="472.44"/>
 <instance part="U$11" gate="G$1" x="261.62" y="472.44"/>
 <instance part="U$12" gate="G$1" x="337.82" y="472.44"/>
@@ -11599,17 +11478,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <junction x="193.04" y="93.98"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="-"/>
-<wire x1="27.94" y1="365.76" x2="27.94" y2="358.14" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="-"/>
-<wire x1="27.94" y1="358.14" x2="55.88" y2="358.14" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="358.14" x2="83.82" y2="358.14" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="358.14" x2="83.82" y2="365.76" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="55.88" y1="355.6" x2="55.88" y2="358.14" width="0.1524" layer="91"/>
-<junction x="55.88" y="358.14"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="P$15"/>
@@ -11861,15 +11729,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="114.3" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <junction x="172.72" y="114.3"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="+"/>
-<wire x1="27.94" y1="373.38" x2="27.94" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="IN"/>
-<wire x1="27.94" y1="375.92" x2="35.56" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="27.94" y1="375.92" x2="27.94" y2="383.54" width="0.1524" layer="91"/>
-<junction x="27.94" y="375.92"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -12353,17 +12212,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <label x="20.32" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="OUT"/>
-<pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="76.2" y1="375.92" x2="83.82" y2="375.92" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="375.92" x2="83.82" y2="373.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="83.82" y1="375.92" x2="83.82" y2="381" width="0.1524" layer="91"/>
-<junction x="83.82" y="375.92"/>
 </segment>
 </net>
 <net name="ON/OFF" class="0">
