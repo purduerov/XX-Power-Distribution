@@ -10996,6 +10996,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.223" y1="27.686" x2="-6.223" y2="-59.944" width="0.127" layer="49"/>
 <wire x1="-6.223" y1="-59.944" x2="24.892" y2="-59.944" width="0.127" layer="49"/>
 </package>
+<package name="POWER_BRICK_CONNECTORS(2X15)">
+<pad name="P$1" x="-1.27" y="19.05" drill="1"/>
+<pad name="P$2" x="-1.27" y="16.51" drill="1"/>
+<pad name="P$3" x="-1.27" y="13.97" drill="1"/>
+<pad name="P$4" x="-1.27" y="11.43" drill="1"/>
+<pad name="P$5" x="-1.27" y="8.89" drill="1"/>
+<pad name="P$6" x="-1.27" y="6.35" drill="1"/>
+<pad name="P$7" x="-1.27" y="3.81" drill="1"/>
+<pad name="P$8" x="-1.27" y="1.27" drill="1"/>
+<pad name="P$9" x="-1.27" y="-1.27" drill="1"/>
+<pad name="P$10" x="-1.27" y="-3.81" drill="1"/>
+<pad name="P$11" x="-1.27" y="-6.35" drill="1"/>
+<pad name="P$12" x="-1.27" y="-8.89" drill="1"/>
+<pad name="P$13" x="-1.27" y="-11.43" drill="1"/>
+<pad name="P$14" x="-1.27" y="-13.97" drill="1"/>
+<pad name="P$15" x="-1.27" y="-16.51" drill="1"/>
+<pad name="P$16" x="1.27" y="19.05" drill="1"/>
+<pad name="P$17" x="1.27" y="16.51" drill="1"/>
+<pad name="P$18" x="1.27" y="13.97" drill="1"/>
+<pad name="P$19" x="1.27" y="11.43" drill="1"/>
+<pad name="P$20" x="1.27" y="8.89" drill="1"/>
+<pad name="P$21" x="1.27" y="6.35" drill="1"/>
+<pad name="P$22" x="1.27" y="3.81" drill="1"/>
+<pad name="P$23" x="1.27" y="1.27" drill="1"/>
+<pad name="P$24" x="1.27" y="-1.27" drill="1"/>
+<pad name="P$25" x="1.27" y="-3.81" drill="1"/>
+<pad name="P$26" x="1.27" y="-6.35" drill="1"/>
+<pad name="P$27" x="1.27" y="-8.89" drill="1"/>
+<pad name="P$28" x="1.27" y="-11.43" drill="1"/>
+<pad name="P$29" x="1.27" y="-13.97" drill="1"/>
+<pad name="P$30" x="1.27" y="-16.51" drill="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWER_BRICK_CONNECTORS(2X6)">
@@ -11033,6 +11065,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="D_GND" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="SDA" x="-15.24" y="-5.08" length="middle"/>
 <pin name="ON/OFF" x="-15.24" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="POWER_BRICK_CONNECTORS(2X15)">
+<wire x1="-7.62" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="35.56" x2="7.62" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-40.64" x2="-7.62" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-40.64" x2="-7.62" y2="35.56" width="0.1524" layer="94"/>
+<pin name="P$1" x="-12.7" y="33.02" length="middle"/>
+<pin name="P$2" x="-12.7" y="27.94" length="middle"/>
+<pin name="P$3" x="-12.7" y="22.86" length="middle"/>
+<pin name="P$4" x="-12.7" y="17.78" length="middle"/>
+<pin name="P$5" x="-12.7" y="12.7" length="middle"/>
+<pin name="P$6" x="-12.7" y="7.62" length="middle"/>
+<pin name="P$7" x="-12.7" y="2.54" length="middle"/>
+<pin name="P$8" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P$9" x="-12.7" y="-7.62" length="middle"/>
+<pin name="P$10" x="-12.7" y="-12.7" length="middle"/>
+<pin name="P$11" x="-12.7" y="-17.78" length="middle"/>
+<pin name="P$12" x="-12.7" y="-22.86" length="middle"/>
+<pin name="P$13" x="-12.7" y="-27.94" length="middle"/>
+<pin name="P$14" x="-12.7" y="-33.02" length="middle"/>
+<pin name="P$15" x="-12.7" y="-38.1" length="middle"/>
+<pin name="P$16" x="12.7" y="33.02" length="middle" rot="R180"/>
+<pin name="P$17" x="12.7" y="27.94" length="middle" rot="R180"/>
+<pin name="P$18" x="12.7" y="22.86" length="middle" rot="R180"/>
+<pin name="P$19" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="P$20" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="P$21" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="P$22" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="P$23" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$24" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$25" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$26" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$27" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$28" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="P$29" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="P$30" x="12.7" y="-38.1" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11077,6 +11145,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POWER_BRICK_CONNECTORS(2X15)">
+<gates>
+<gate name="G$1" symbol="POWER_BRICK_CONNECTORS(2X15)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_BRICK_CONNECTORS(2X15)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$15" pad="P$15"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$17" pad="P$17"/>
+<connect gate="G$1" pin="P$18" pad="P$18"/>
+<connect gate="G$1" pin="P$19" pad="P$19"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$21" pad="P$21"/>
+<connect gate="G$1" pin="P$22" pad="P$22"/>
+<connect gate="G$1" pin="P$23" pad="P$23"/>
+<connect gate="G$1" pin="P$24" pad="P$24"/>
+<connect gate="G$1" pin="P$25" pad="P$25"/>
+<connect gate="G$1" pin="P$26" pad="P$26"/>
+<connect gate="G$1" pin="P$27" pad="P$27"/>
+<connect gate="G$1" pin="P$28" pad="P$28"/>
+<connect gate="G$1" pin="P$29" pad="P$29"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$30" pad="P$30"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11298,8 +11410,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$12" library="BackplaneParts" deviceset="T2I" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="U$13" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
+<part name="U$14" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11308,9 +11420,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="96.52" y="210.82" size="3.81" layer="91">reverse voltage protection</text>
 <text x="12.7" y="114.3" size="2.54" layer="91">48 VOLT CONNECTOR</text>
 <text x="144.78" y="129.54" size="3.81" layer="91">Current Sensor</text>
-<text x="101.6" y="233.68" size="1.778" layer="91">Used to jump the 48V is the reverse voltage
- protection doesn't work.  
-Also works as probing points</text>
 </plain>
 <instances>
 <instance part="U$4" gate="G$1" x="33.02" y="172.72" rot="R90">
@@ -11435,8 +11544,8 @@ Also works as probing points</text>
 <instance part="U$12" gate="G$1" x="127" y="342.9" rot="R270"/>
 <instance part="GND7" gate="1" x="142.24" y="365.76"/>
 <instance part="P+16" gate="1" x="142.24" y="388.62"/>
-<instance part="J3" gate="G$1" x="111.76" y="228.6"/>
-<instance part="J4" gate="G$1" x="121.92" y="228.6" rot="R180"/>
+<instance part="U$13" gate="G$1" x="276.86" y="91.44"/>
+<instance part="U$14" gate="G$1" x="312.42" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -11738,11 +11847,6 @@ Also works as probing points</text>
 <wire x1="124.46" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="124.46" y="114.3" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="228.6" x2="134.62" y2="228.6" width="0.1524" layer="91"/>
-<label x="127" y="228.6" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="48V_GND" class="0">
 <segment>
@@ -11869,11 +11973,6 @@ Also works as probing points</text>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <label x="20.32" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="228.6" x2="93.98" y2="228.6" width="0.1524" layer="91"/>
-<label x="93.98" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12116,10 +12215,6 @@ Also works as probing points</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
