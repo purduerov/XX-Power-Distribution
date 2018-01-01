@@ -1218,6 +1218,19 @@ D2PAK-7</description>
 <wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="51"/>
 <wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="51"/>
 </package>
+<package name="PTC-2920">
+<wire x1="-2.4" y1="2" x2="2.4" y2="2" width="0.127" layer="51"/>
+<wire x1="2.4" y1="2" x2="2.4" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-2" x2="-2.4" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-2" x2="-2.4" y2="2" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-0.762" x2="-0.635" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="0.762" x2="0.635" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-2.343" y1="-2.366" x2="1.504" y2="2.366" width="0.127" layer="51"/>
+<wire x1="1.504" y1="2.366" x2="2.393" y2="2.366" width="0.127" layer="51"/>
+<smd name="1" x="-4.2" y="0" dx="3.4" dy="5.6" layer="1"/>
+<smd name="2" x="4.2" y="0" dx="3.4" dy="5.6" layer="1"/>
+<text x="0" y="3.302" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCHMODE_SCHOTTKY">
@@ -1269,6 +1282,18 @@ D2PAK-7</description>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+<symbol name="PTC">
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="3.048" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1332,6 +1357,22 @@ Buck Converter IC 12V-to-5V</description>
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTC(2920L)" prefix="F" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTC-2920">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11426,7 +11467,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
@@ -11441,8 +11481,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="U$13" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
 <part name="U$14" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X15)" device=""/>
-<part name="U$15" library="MotherBoardParts2" deviceset="POWER_DIST_TO_ESC" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="F7" library="PowerComponents" deviceset="PTC(2920L)" device="" value="10A"/>
+<part name="P+18" library="supply1" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11451,6 +11492,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="96.52" y="210.82" size="3.81" layer="91">reverse voltage protection</text>
 <text x="12.7" y="114.3" size="2.54" layer="91">48 VOLT CONNECTOR</text>
 <text x="144.78" y="129.54" size="3.81" layer="91">Current Sensor</text>
+<text x="223.52" y="238.76" size="1.778" layer="91">Fuse to keep 
+electronics safe</text>
 </plain>
 <instances>
 <instance part="U$4" gate="G$1" x="33.02" y="172.72" rot="R90">
@@ -11562,7 +11605,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND13" gate="1" x="256.54" y="469.9"/>
 <instance part="GND14" gate="1" x="342.9" y="469.9"/>
 <instance part="GND15" gate="1" x="299.72" y="490.22"/>
-<instance part="P+1" gate="1" x="238.76" y="238.76"/>
 <instance part="P+7" gate="1" x="53.34" y="464.82"/>
 <instance part="P+8" gate="1" x="142.24" y="462.28"/>
 <instance part="P+9" gate="1" x="233.68" y="462.28"/>
@@ -11578,6 +11620,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$13" gate="G$1" x="276.86" y="91.44"/>
 <instance part="U$14" gate="G$1" x="312.42" y="91.44"/>
 <instance part="P+17" gate="VCC" x="119.38" y="111.76"/>
+<instance part="F7" gate="G$1" x="246.38" y="238.76" rot="MR90"/>
+<instance part="P+18" gate="1" x="246.38" y="251.46"/>
 </instances>
 <busses>
 </busses>
@@ -11911,30 +11955,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="P+3" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="VIN"/>
-<wire x1="264.16" y1="226.06" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="220.98" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
-<junction x="259.08" y="226.06"/>
-<pinref part="C11" gate="G$1" pin="+"/>
-<wire x1="248.92" y1="226.06" x2="248.92" y2="223.52" width="0.1524" layer="91"/>
-<junction x="248.92" y="226.06"/>
-<pinref part="C13" gate="G$1" pin="+"/>
-<wire x1="215.9" y1="223.52" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="226.06" x2="228.6" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="+"/>
-<wire x1="228.6" y1="226.06" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="223.52" x2="228.6" y2="226.06" width="0.1524" layer="91"/>
-<junction x="228.6" y="226.06"/>
-<pinref part="C12" gate="G$1" pin="+"/>
-<wire x1="238.76" y1="223.52" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
-<junction x="238.76" y="226.06"/>
-<wire x1="238.76" y1="236.22" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+12V"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="OUT"/>
 <wire x1="53.34" y1="457.2" x2="53.34" y2="462.28" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+12V"/>
@@ -11979,6 +11999,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="76.2" y1="327.66" x2="76.2" y2="342.9" width="0.1524" layer="91"/>
 <junction x="76.2" y="342.9"/>
 <pinref part="P+15" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="F7" gate="G$1" pin="2"/>
+<pinref part="P+18" gate="1" pin="+12V"/>
+<wire x1="246.38" y1="246.38" x2="246.38" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12242,12 +12267,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="139.7" y1="337.82" x2="152.4" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="VIN"/>
+<wire x1="264.16" y1="226.06" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="220.98" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
+<junction x="259.08" y="226.06"/>
+<pinref part="C11" gate="G$1" pin="+"/>
+<wire x1="248.92" y1="226.06" x2="248.92" y2="223.52" width="0.1524" layer="91"/>
+<junction x="248.92" y="226.06"/>
+<pinref part="C13" gate="G$1" pin="+"/>
+<wire x1="215.9" y1="223.52" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="226.06" x2="228.6" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="+"/>
+<wire x1="228.6" y1="226.06" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="226.06" x2="246.38" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="223.52" x2="228.6" y2="226.06" width="0.1524" layer="91"/>
+<junction x="228.6" y="226.06"/>
+<pinref part="C12" gate="G$1" pin="+"/>
+<wire x1="238.76" y1="223.52" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
+<junction x="238.76" y="226.06"/>
+<pinref part="F7" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="226.06" x2="246.38" y2="233.68" width="0.1524" layer="91"/>
+<junction x="246.38" y="226.06"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
