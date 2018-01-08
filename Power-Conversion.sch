@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11832,19 +11832,6 @@ electronics safe</text>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="ONOFF" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="D1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
-<wire x1="60.96" y1="167.64" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
-<label x="60.96" y="177.8" size="1.778" layer="95"/>
-<wire x1="60.96" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
-<junction x="60.96" y="177.8"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="C"/>
@@ -11995,6 +11982,26 @@ electronics safe</text>
 <wire x1="30.48" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <label x="20.32" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$20" gate="G$1" pin="48V_GND"/>
+<wire x1="68.58" y1="492.76" x2="73.66" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="P-7" gate="1" pin="V-"/>
+</segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="48V_GND"/>
+<wire x1="157.48" y1="492.76" x2="162.56" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="P-8" gate="1" pin="V-"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="48V_GND"/>
+<wire x1="251.46" y1="492.76" x2="256.54" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="P-9" gate="1" pin="V-"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="48V_GND"/>
+<wire x1="337.82" y1="492.76" x2="342.9" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="P-10" gate="1" pin="V-"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -12144,6 +12151,17 @@ electronics safe</text>
 <pinref part="U$23" gate="G$1" pin="ON/OFF"/>
 <wire x1="304.8" y1="472.44" x2="299.72" y2="472.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="D1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="167.64" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<label x="60.96" y="177.8" size="1.778" layer="95"/>
+<wire x1="60.96" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
+<junction x="60.96" y="177.8"/>
+</segment>
 </net>
 <net name="+12V_1" class="0">
 <segment>
@@ -12191,28 +12209,6 @@ electronics safe</text>
 <pinref part="U$23" gate="G$1" pin="+12V"/>
 <wire x1="304.8" y1="497.84" x2="299.72" y2="497.84" width="0.1524" layer="91"/>
 <label x="299.72" y="502.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="V-" class="0">
-<segment>
-<pinref part="U$20" gate="G$1" pin="48V_GND"/>
-<wire x1="68.58" y1="492.76" x2="73.66" y2="492.76" width="0.1524" layer="91"/>
-<pinref part="P-7" gate="1" pin="V-"/>
-</segment>
-<segment>
-<pinref part="U$21" gate="G$1" pin="48V_GND"/>
-<wire x1="157.48" y1="492.76" x2="162.56" y2="492.76" width="0.1524" layer="91"/>
-<pinref part="P-8" gate="1" pin="V-"/>
-</segment>
-<segment>
-<pinref part="U$22" gate="G$1" pin="48V_GND"/>
-<wire x1="251.46" y1="492.76" x2="256.54" y2="492.76" width="0.1524" layer="91"/>
-<pinref part="P-9" gate="1" pin="V-"/>
-</segment>
-<segment>
-<pinref part="U$23" gate="G$1" pin="48V_GND"/>
-<wire x1="337.82" y1="492.76" x2="342.9" y2="492.76" width="0.1524" layer="91"/>
-<pinref part="P-10" gate="1" pin="V-"/>
 </segment>
 </net>
 <net name="VCC" class="0">
