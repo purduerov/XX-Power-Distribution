@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2680,20 +2680,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="MotherBoardParts2">
 <packages>
-<package name="POWER_BRICK_CONNECTORS(2X6)">
-<pad name="P$1" x="-1.27" y="6.35" drill="1"/>
-<pad name="P$2" x="-1.27" y="3.81" drill="1"/>
-<pad name="P$3" x="-1.27" y="1.27" drill="1"/>
-<pad name="P$4" x="-1.27" y="-1.27" drill="1"/>
-<pad name="P$5" x="-1.27" y="-3.81" drill="1"/>
-<pad name="P$6" x="-1.27" y="-6.35" drill="1"/>
-<pad name="P$7" x="1.27" y="6.35" drill="1"/>
-<pad name="P$8" x="1.27" y="3.81" drill="1"/>
-<pad name="P$9" x="1.27" y="1.27" drill="1"/>
-<pad name="P$10" x="1.27" y="-1.27" drill="1"/>
-<pad name="P$11" x="1.27" y="-3.81" drill="1"/>
-<pad name="P$12" x="1.27" y="-6.35" drill="1"/>
-</package>
 <package name="BRICK_TO_POWER_DIST_WHOLE">
 <pad name="GND6" x="-3.81" y="16.51" drill="1" rot="R90"/>
 <pad name="GND7" x="-1.27" y="16.51" drill="1" rot="R90"/>
@@ -2813,117 +2799,129 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.5654" y="2.567"/>
 </polygon>
 </package>
-<package name="ESC-PARALLELL">
-<pad name="P$1" x="-1.27" y="-30.48" drill="1"/>
-<pad name="P$2" x="1.27" y="-30.48" drill="1"/>
-<pad name="P$3" x="-1.27" y="-27.94" drill="1"/>
-<pad name="P$4" x="1.27" y="-27.94" drill="1"/>
-<pad name="P$5" x="-1.27" y="-25.4" drill="1"/>
-<pad name="P$6" x="1.27" y="-25.4" drill="1"/>
-<pad name="P$7" x="-1.27" y="-22.86" drill="1"/>
-<pad name="P$8" x="1.27" y="-22.86" drill="1"/>
-<pad name="P$9" x="-1.27" y="-20.32" drill="1"/>
-<pad name="P$10" x="1.27" y="-20.32" drill="1"/>
-<pad name="P$11" x="-1.27" y="-17.78" drill="1"/>
-<pad name="P$12" x="1.27" y="-17.78" drill="1"/>
-<pad name="P$13" x="-1.27" y="-15.24" drill="1"/>
-<pad name="P$14" x="1.27" y="-15.24" drill="1"/>
-<pad name="P$15" x="-1.27" y="-12.7" drill="1"/>
-<pad name="P$16" x="1.27" y="-12.7" drill="1"/>
-<pad name="P$17" x="-1.27" y="-10.16" drill="1"/>
-<pad name="P$18" x="1.27" y="-10.16" drill="1"/>
-<pad name="P$19" x="-1.27" y="-7.62" drill="1"/>
-<pad name="P$20" x="1.27" y="-7.62" drill="1"/>
-<pad name="P$21" x="-1.27" y="-5.08" drill="1"/>
-<pad name="P$22" x="1.27" y="-5.08" drill="1"/>
-<pad name="P$23" x="-1.27" y="-2.54" drill="1"/>
-<pad name="P$24" x="1.27" y="-2.54" drill="1"/>
-<pad name="P$25" x="-1.27" y="0" drill="1"/>
-<pad name="P$26" x="1.27" y="0" drill="1"/>
-<pad name="P$27" x="-1.27" y="2.54" drill="1"/>
-<pad name="P$28" x="1.27" y="2.54" drill="1"/>
-<pad name="P$29" x="-1.27" y="5.08" drill="1"/>
-<pad name="P$30" x="1.27" y="5.08" drill="1"/>
-<pad name="P$31" x="-1.27" y="7.62" drill="1"/>
-<pad name="P$32" x="1.27" y="7.62" drill="1"/>
-<pad name="P$33" x="-1.27" y="10.16" drill="1"/>
-<pad name="P$34" x="1.27" y="10.16" drill="1"/>
-<pad name="P$35" x="-1.27" y="12.7" drill="1"/>
-<pad name="P$36" x="1.27" y="12.7" drill="1"/>
-<pad name="P$37" x="-1.27" y="15.24" drill="1"/>
-<pad name="P$38" x="1.27" y="15.24" drill="1"/>
-<pad name="P$39" x="-1.27" y="17.78" drill="1"/>
-<pad name="P$40" x="1.27" y="17.78" drill="1"/>
-<pad name="P$41" x="-1.27" y="20.32" drill="1"/>
-<pad name="P$42" x="1.27" y="20.32" drill="1"/>
-<pad name="P$43" x="-1.27" y="22.86" drill="1"/>
-<pad name="P$44" x="1.27" y="22.86" drill="1"/>
-<pad name="P$45" x="-1.27" y="25.4" drill="1"/>
-<pad name="P$46" x="1.27" y="25.4" drill="1"/>
-<pad name="P$47" x="-1.27" y="27.94" drill="1"/>
-<pad name="P$48" x="1.27" y="27.94" drill="1"/>
-<pad name="P$49" x="-1.27" y="30.48" drill="1"/>
-<pad name="P$50" x="1.27" y="30.48" drill="1"/>
-<pad name="P$101" x="-143.764" y="-3.048" drill="1"/>
-<pad name="P$102" x="-143.764" y="-5.588" drill="1"/>
-<pad name="P$103" x="-143.764" y="-8.128" drill="1"/>
-<pad name="P$104" x="-143.764" y="-10.668" drill="1"/>
-<pad name="P$105" x="-143.764" y="-13.208" drill="1"/>
-<pad name="P$106" x="-143.764" y="-15.748" drill="1"/>
-<pad name="P$107" x="-143.764" y="-18.288" drill="1"/>
-<pad name="P$108" x="-143.764" y="-20.828" drill="1"/>
-<pad name="P$109" x="-143.764" y="-23.368" drill="1"/>
-<pad name="P$110" x="-143.764" y="-25.908" drill="1"/>
-<pad name="P$111" x="-143.764" y="-28.448" drill="1"/>
-<pad name="P$112" x="-143.764" y="-30.988" drill="1"/>
-<pad name="P$113" x="-143.764" y="-33.528" drill="1"/>
-<pad name="P$114" x="-143.764" y="-36.068" drill="1"/>
-<pad name="P$115" x="-143.764" y="-38.608" drill="1"/>
-<pad name="P$116" x="-141.224" y="-3.048" drill="1"/>
-<pad name="P$117" x="-141.224" y="-5.588" drill="1"/>
-<pad name="P$118" x="-141.224" y="-8.128" drill="1"/>
-<pad name="P$119" x="-141.224" y="-10.668" drill="1"/>
-<pad name="P$120" x="-141.224" y="-13.208" drill="1"/>
-<pad name="P$121" x="-141.224" y="-15.748" drill="1"/>
-<pad name="P$122" x="-141.224" y="-18.288" drill="1"/>
-<pad name="P$123" x="-141.224" y="-20.828" drill="1"/>
-<pad name="P$124" x="-141.224" y="-23.368" drill="1"/>
-<pad name="P$125" x="-141.224" y="-25.908" drill="1"/>
-<pad name="P$126" x="-141.224" y="-28.448" drill="1"/>
-<pad name="P$127" x="-141.224" y="-30.988" drill="1"/>
-<pad name="P$128" x="-141.224" y="-33.528" drill="1"/>
-<pad name="P$129" x="-141.224" y="-36.068" drill="1"/>
-<pad name="P$130" x="-141.224" y="-38.608" drill="1"/>
-<pad name="P$51" x="-138.684" y="-3.048" drill="1"/>
-<pad name="P$52" x="-138.684" y="-5.588" drill="1"/>
-<pad name="P$53" x="-138.684" y="-8.128" drill="1"/>
-<pad name="P$54" x="-138.684" y="-10.668" drill="1"/>
-<pad name="P$55" x="-138.684" y="-13.208" drill="1"/>
-<pad name="P$56" x="-138.684" y="-15.748" drill="1"/>
-<pad name="P$57" x="-138.684" y="-18.288" drill="1"/>
-<pad name="P$58" x="-138.684" y="-20.828" drill="1"/>
-<pad name="P$59" x="-138.684" y="-23.368" drill="1"/>
-<pad name="P$60" x="-138.684" y="-25.908" drill="1"/>
-<pad name="P$61" x="-138.684" y="-28.448" drill="1"/>
-<pad name="P$62" x="-138.684" y="-30.988" drill="1"/>
-<pad name="P$63" x="-138.684" y="-33.528" drill="1"/>
-<pad name="P$64" x="-138.684" y="-36.068" drill="1"/>
-<pad name="P$65" x="-138.684" y="-38.608" drill="1"/>
-<pad name="P$66" x="-136.144" y="-3.048" drill="1"/>
-<pad name="P$67" x="-136.144" y="-5.588" drill="1"/>
-<pad name="P$68" x="-136.144" y="-8.128" drill="1"/>
-<pad name="P$69" x="-136.144" y="-10.668" drill="1"/>
-<pad name="P$70" x="-136.144" y="-13.208" drill="1"/>
-<pad name="P$71" x="-136.144" y="-15.748" drill="1"/>
-<pad name="P$72" x="-136.144" y="-18.288" drill="1"/>
-<pad name="P$73" x="-136.144" y="-20.828" drill="1"/>
-<pad name="P$74" x="-136.144" y="-23.368" drill="1"/>
-<pad name="P$75" x="-136.144" y="-25.908" drill="1"/>
-<pad name="P$76" x="-136.144" y="-28.448" drill="1"/>
-<pad name="P$77" x="-136.144" y="-30.988" drill="1"/>
-<pad name="P$78" x="-136.144" y="-33.528" drill="1"/>
-<pad name="P$79" x="-136.144" y="-36.068" drill="1"/>
-<pad name="P$80" x="-136.144" y="-38.608" drill="1"/>
+<package name="ESC-FULL">
+<pad name="P$1" x="-6.35" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$2" x="-3.81" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$3" x="-1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$4" x="1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$5" x="3.81" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$6" x="6.35" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$7" x="-6.35" y="1.27" drill="1" rot="R90"/>
+<pad name="P$8" x="-3.81" y="1.27" drill="1" rot="R90"/>
+<pad name="P$9" x="-1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$10" x="1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$11" x="3.81" y="1.27" drill="1" rot="R90"/>
+<pad name="P$12" x="6.35" y="1.27" drill="1" rot="R90"/>
+<pad name="P$13" x="140.081" y="-61.849" drill="1"/>
+<pad name="P$14" x="142.621" y="-61.849" drill="1"/>
+<pad name="P$15" x="140.081" y="-59.309" drill="1"/>
+<pad name="P$16" x="142.621" y="-59.309" drill="1"/>
+<pad name="P$17" x="140.081" y="-56.769" drill="1"/>
+<pad name="P$18" x="142.621" y="-56.769" drill="1"/>
+<pad name="P$19" x="140.081" y="-54.229" drill="1"/>
+<pad name="P$20" x="142.621" y="-54.229" drill="1"/>
+<pad name="P$21" x="140.081" y="-51.689" drill="1"/>
+<pad name="P$22" x="142.621" y="-51.689" drill="1"/>
+<pad name="P$23" x="140.081" y="-49.149" drill="1"/>
+<pad name="P$24" x="142.621" y="-49.149" drill="1"/>
+<pad name="P$25" x="140.081" y="-46.609" drill="1"/>
+<pad name="P$26" x="142.621" y="-46.609" drill="1"/>
+<pad name="P$27" x="140.081" y="-44.069" drill="1"/>
+<pad name="P$28" x="142.621" y="-44.069" drill="1"/>
+<pad name="P$29" x="140.081" y="-41.529" drill="1"/>
+<pad name="P$30" x="142.621" y="-41.529" drill="1"/>
+<pad name="P$31" x="140.081" y="-38.989" drill="1"/>
+<pad name="P$32" x="142.621" y="-38.989" drill="1"/>
+<pad name="P$33" x="140.081" y="-36.449" drill="1"/>
+<pad name="P$34" x="142.621" y="-36.449" drill="1"/>
+<pad name="P$35" x="140.081" y="-33.909" drill="1"/>
+<pad name="P$36" x="142.621" y="-33.909" drill="1"/>
+<pad name="P$37" x="140.081" y="-31.369" drill="1"/>
+<pad name="P$38" x="142.621" y="-31.369" drill="1"/>
+<pad name="P$39" x="140.081" y="-28.829" drill="1"/>
+<pad name="P$40" x="142.621" y="-28.829" drill="1"/>
+<pad name="P$41" x="140.081" y="-26.289" drill="1"/>
+<pad name="P$42" x="142.621" y="-26.289" drill="1"/>
+<pad name="P$43" x="140.081" y="-23.749" drill="1"/>
+<pad name="P$44" x="142.621" y="-23.749" drill="1"/>
+<pad name="P$45" x="140.081" y="-21.209" drill="1"/>
+<pad name="P$46" x="142.621" y="-21.209" drill="1"/>
+<pad name="P$47" x="140.081" y="-18.669" drill="1"/>
+<pad name="P$48" x="142.621" y="-18.669" drill="1"/>
+<pad name="P$49" x="140.081" y="-16.129" drill="1"/>
+<pad name="P$50" x="142.621" y="-16.129" drill="1"/>
+<pad name="P$51" x="140.081" y="-13.589" drill="1"/>
+<pad name="P$52" x="142.621" y="-13.589" drill="1"/>
+<pad name="P$53" x="140.081" y="-11.049" drill="1"/>
+<pad name="P$54" x="142.621" y="-11.049" drill="1"/>
+<pad name="P$55" x="140.081" y="-8.509" drill="1"/>
+<pad name="P$56" x="142.621" y="-8.509" drill="1"/>
+<pad name="P$57" x="140.081" y="-5.969" drill="1"/>
+<pad name="P$58" x="142.621" y="-5.969" drill="1"/>
+<pad name="P$59" x="140.081" y="-3.429" drill="1"/>
+<pad name="P$60" x="142.621" y="-3.429" drill="1"/>
+<pad name="P$61" x="140.081" y="-0.889" drill="1"/>
+<pad name="P$62" x="142.621" y="-0.889" drill="1"/>
+<pad name="P$101" x="-2.413" y="-34.417" drill="1"/>
+<pad name="P$102" x="-2.413" y="-36.957" drill="1"/>
+<pad name="P$103" x="-2.413" y="-39.497" drill="1"/>
+<pad name="P$104" x="-2.413" y="-42.037" drill="1"/>
+<pad name="P$105" x="-2.413" y="-44.577" drill="1"/>
+<pad name="P$106" x="-2.413" y="-47.117" drill="1"/>
+<pad name="P$107" x="-2.413" y="-49.657" drill="1"/>
+<pad name="P$108" x="-2.413" y="-52.197" drill="1"/>
+<pad name="P$109" x="-2.413" y="-54.737" drill="1"/>
+<pad name="P$110" x="-2.413" y="-57.277" drill="1"/>
+<pad name="P$111" x="-2.413" y="-59.817" drill="1"/>
+<pad name="P$112" x="-2.413" y="-62.357" drill="1"/>
+<pad name="P$113" x="-2.413" y="-64.897" drill="1"/>
+<pad name="P$114" x="-2.413" y="-67.437" drill="1"/>
+<pad name="P$115" x="-2.413" y="-69.977" drill="1"/>
+<pad name="P$116" x="0.127" y="-34.417" drill="1"/>
+<pad name="P$117" x="0.127" y="-36.957" drill="1"/>
+<pad name="P$118" x="0.127" y="-39.497" drill="1"/>
+<pad name="P$119" x="0.127" y="-42.037" drill="1"/>
+<pad name="P$120" x="0.127" y="-44.577" drill="1"/>
+<pad name="P$121" x="0.127" y="-47.117" drill="1"/>
+<pad name="P$122" x="0.127" y="-49.657" drill="1"/>
+<pad name="P$123" x="0.127" y="-52.197" drill="1"/>
+<pad name="P$124" x="0.127" y="-54.737" drill="1"/>
+<pad name="P$125" x="0.127" y="-57.277" drill="1"/>
+<pad name="P$126" x="0.127" y="-59.817" drill="1"/>
+<pad name="P$127" x="0.127" y="-62.357" drill="1"/>
+<pad name="P$128" x="0.127" y="-64.897" drill="1"/>
+<pad name="P$129" x="0.127" y="-67.437" drill="1"/>
+<pad name="P$130" x="0.127" y="-69.977" drill="1"/>
+<pad name="P$63" x="2.667" y="-34.417" drill="1"/>
+<pad name="P$64" x="2.667" y="-36.957" drill="1"/>
+<pad name="P$65" x="2.667" y="-39.497" drill="1"/>
+<pad name="P$66" x="2.667" y="-42.037" drill="1"/>
+<pad name="P$67" x="2.667" y="-44.577" drill="1"/>
+<pad name="P$68" x="2.667" y="-47.117" drill="1"/>
+<pad name="P$69" x="2.667" y="-49.657" drill="1"/>
+<pad name="P$70" x="2.667" y="-52.197" drill="1"/>
+<pad name="P$71" x="2.667" y="-54.737" drill="1"/>
+<pad name="P$72" x="2.667" y="-57.277" drill="1"/>
+<pad name="P$73" x="2.667" y="-59.817" drill="1"/>
+<pad name="P$74" x="2.667" y="-62.357" drill="1"/>
+<pad name="P$75" x="2.667" y="-64.897" drill="1"/>
+<pad name="P$76" x="2.667" y="-67.437" drill="1"/>
+<pad name="P$77" x="2.667" y="-69.977" drill="1"/>
+<pad name="P$78" x="5.207" y="-34.417" drill="1"/>
+<pad name="P$79" x="5.207" y="-36.957" drill="1"/>
+<pad name="P$80" x="5.207" y="-39.497" drill="1"/>
+<pad name="P$81" x="5.207" y="-42.037" drill="1"/>
+<pad name="P$82" x="5.207" y="-44.577" drill="1"/>
+<pad name="P$83" x="5.207" y="-47.117" drill="1"/>
+<pad name="P$84" x="5.207" y="-49.657" drill="1"/>
+<pad name="P$85" x="5.207" y="-52.197" drill="1"/>
+<pad name="P$86" x="5.207" y="-54.737" drill="1"/>
+<pad name="P$87" x="5.207" y="-57.277" drill="1"/>
+<pad name="P$88" x="5.207" y="-59.817" drill="1"/>
+<pad name="P$89" x="5.207" y="-62.357" drill="1"/>
+<pad name="P$90" x="5.207" y="-64.897" drill="1"/>
+<pad name="P$91" x="5.207" y="-67.437" drill="1"/>
+<pad name="P$92" x="5.207" y="-69.977" drill="1"/>
 </package>
 </packages>
 </library>
@@ -3051,10 +3049,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3210,7 +3209,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$9" library="PowerComponents" package="DPAK-3" value="SWITCHMODE_SCHOTTKY" x="8.382" y="58.42" rot="MR270"/>
 <element name="U7" library="PowerComponents" package="LM2678" value="LM2678" x="16.764" y="76.708" rot="R270"/>
-<element name="U$16" library="MotherBoardParts2" package="POWER_BRICK_CONNECTORS(2X6)" value="POWER_BRICK_CONNECTORS(2X6)" x="36.449" y="95.377" rot="R90"/>
 <element name="U$2" library="diode" package="DIODE" value="DIODE" x="137.16" y="72.39" rot="R90"/>
 <element name="U$18" library="diode" package="DIODE" value="DIODE" x="104.14" y="72.39" rot="R90"/>
 <element name="U$19" library="diode" package="DIODE" value="DIODE" x="71.12" y="72.39" rot="R90"/>
@@ -3227,7 +3225,7 @@ design rules under a new name.</description>
 <element name="U$12" library="BackplaneParts" package="T2I" value="T2I" x="13.462" y="20.828" rot="R270"/>
 <element name="U$15" library="MotherBoardParts2" package="POWER_DIST_TO_ESC" value="POWER_DIST_TO_ESC" x="6.35" y="123.19" rot="R270"/>
 <element name="F7" library="PowerComponents" package="PTC-2920" value="10A" x="19.05" y="62.738"/>
-<element name="U$17" library="MotherboardParts" package="ESC-PARALLELL" value="ESC-CONNECTORPARALLELL" x="177.8" y="64.008"/>
+<element name="U$3" library="MotherboardParts" package="ESC-FULL" value="ESC-FULL" x="36.449" y="95.377"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3250,9 +3248,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R4" pad="1"/>
-<contactref element="U$16" pad="P$7"/>
-<contactref element="U$16" pad="P$8"/>
-<contactref element="U$16" pad="P$9"/>
 <contactref element="U$20" pad="D_GND"/>
 <contactref element="U$21" pad="D_GND"/>
 <contactref element="U$22" pad="D_GND"/>
@@ -3353,56 +3348,6 @@ design rules under a new name.</description>
 <wire x1="19.8" y1="31" x2="19.8" y2="32.004" width="0.4064" layer="1"/>
 <wire x1="19.812" y1="30.988" x2="19.8" y2="30.976" width="0.4064" layer="1"/>
 <wire x1="19.8" y1="30.976" x2="19.8" y2="29.718" width="0.4064" layer="1"/>
-<contactref element="U$17" pad="P$31"/>
-<contactref element="U$17" pad="P$45"/>
-<contactref element="U$17" pad="P$41"/>
-<contactref element="U$17" pad="P$36"/>
-<contactref element="U$17" pad="P$17"/>
-<contactref element="U$17" pad="P$1"/>
-<contactref element="U$17" pad="P$26"/>
-<contactref element="U$17" pad="P$23"/>
-<contactref element="U$17" pad="P$20"/>
-<contactref element="U$17" pad="P$42"/>
-<contactref element="U$17" pad="P$6"/>
-<contactref element="U$17" pad="P$5"/>
-<contactref element="U$17" pad="P$24"/>
-<contactref element="U$17" pad="P$30"/>
-<contactref element="U$17" pad="P$25"/>
-<contactref element="U$17" pad="P$18"/>
-<contactref element="U$17" pad="P$48"/>
-<contactref element="U$17" pad="P$4"/>
-<contactref element="U$17" pad="P$14"/>
-<contactref element="U$17" pad="P$3"/>
-<contactref element="U$17" pad="P$38"/>
-<contactref element="U$17" pad="P$22"/>
-<contactref element="U$17" pad="P$19"/>
-<contactref element="U$17" pad="P$39"/>
-<contactref element="U$17" pad="P$50"/>
-<contactref element="U$17" pad="P$43"/>
-<contactref element="U$17" pad="P$21"/>
-<contactref element="U$17" pad="P$27"/>
-<contactref element="U$17" pad="P$28"/>
-<contactref element="U$17" pad="P$11"/>
-<contactref element="U$17" pad="P$32"/>
-<contactref element="U$17" pad="P$40"/>
-<contactref element="U$17" pad="P$8"/>
-<contactref element="U$17" pad="P$7"/>
-<contactref element="U$17" pad="P$10"/>
-<contactref element="U$17" pad="P$47"/>
-<contactref element="U$17" pad="P$44"/>
-<contactref element="U$17" pad="P$33"/>
-<contactref element="U$17" pad="P$15"/>
-<contactref element="U$17" pad="P$9"/>
-<contactref element="U$17" pad="P$34"/>
-<contactref element="U$17" pad="P$46"/>
-<contactref element="U$17" pad="P$16"/>
-<contactref element="U$17" pad="P$37"/>
-<contactref element="U$17" pad="P$12"/>
-<contactref element="U$17" pad="P$29"/>
-<contactref element="U$17" pad="P$2"/>
-<contactref element="U$17" pad="P$49"/>
-<contactref element="U$17" pad="P$35"/>
-<contactref element="U$17" pad="P$13"/>
 <polygon width="0.1524" layer="16">
 <vertex x="182.626" y="96.012"/>
 <vertex x="154.94" y="96.012"/>
@@ -3449,6 +3394,59 @@ design rules under a new name.</description>
 <wire x1="156.464" y1="18.034" x2="154.94" y2="18.034" width="0.6096" layer="16"/>
 <wire x1="156.464" y1="18.034" x2="157.226" y2="18.034" width="0.6096" layer="16"/>
 <wire x1="156.464" y1="20.066" x2="156.464" y2="18.034" width="0.6096" layer="16"/>
+<contactref element="U$3" pad="P$16"/>
+<contactref element="U$3" pad="P$13"/>
+<contactref element="U$3" pad="P$41"/>
+<contactref element="U$3" pad="P$33"/>
+<contactref element="U$3" pad="P$29"/>
+<contactref element="U$3" pad="P$48"/>
+<contactref element="U$3" pad="P$14"/>
+<contactref element="U$3" pad="P$62"/>
+<contactref element="U$3" pad="P$22"/>
+<contactref element="U$3" pad="P$32"/>
+<contactref element="U$3" pad="P$18"/>
+<contactref element="U$3" pad="P$35"/>
+<contactref element="U$3" pad="P$24"/>
+<contactref element="U$3" pad="P$50"/>
+<contactref element="U$3" pad="P$57"/>
+<contactref element="U$3" pad="P$17"/>
+<contactref element="U$3" pad="P$34"/>
+<contactref element="U$3" pad="P$37"/>
+<contactref element="U$3" pad="P$52"/>
+<contactref element="U$3" pad="P$59"/>
+<contactref element="U$3" pad="P$47"/>
+<contactref element="U$3" pad="P$51"/>
+<contactref element="U$3" pad="P$43"/>
+<contactref element="U$3" pad="P$19"/>
+<contactref element="U$3" pad="P$36"/>
+<contactref element="U$3" pad="P$38"/>
+<contactref element="U$3" pad="P$20"/>
+<contactref element="U$3" pad="P$26"/>
+<contactref element="U$3" pad="P$53"/>
+<contactref element="U$3" pad="P$15"/>
+<contactref element="U$3" pad="P$30"/>
+<contactref element="U$3" pad="P$23"/>
+<contactref element="U$3" pad="P$55"/>
+<contactref element="U$3" pad="P$27"/>
+<contactref element="U$3" pad="P$49"/>
+<contactref element="U$3" pad="P$56"/>
+<contactref element="U$3" pad="P$31"/>
+<contactref element="U$3" pad="P$21"/>
+<contactref element="U$3" pad="P$54"/>
+<contactref element="U$3" pad="P$58"/>
+<contactref element="U$3" pad="P$44"/>
+<contactref element="U$3" pad="P$61"/>
+<contactref element="U$3" pad="P$25"/>
+<contactref element="U$3" pad="P$46"/>
+<contactref element="U$3" pad="P$60"/>
+<contactref element="U$3" pad="P$28"/>
+<contactref element="U$3" pad="P$40"/>
+<contactref element="U$3" pad="P$45"/>
+<contactref element="U$3" pad="P$42"/>
+<contactref element="U$3" pad="P$39"/>
+<contactref element="U$3" pad="P$7"/>
+<contactref element="U$3" pad="P$9"/>
+<contactref element="U$3" pad="P$8"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$4" pad="3"/>
@@ -3692,9 +3690,6 @@ design rules under a new name.</description>
 <contactref element="U$18" pad="OUT"/>
 <contactref element="U$19" pad="OUT"/>
 <contactref element="U$24" pad="OUT"/>
-<contactref element="U$16" pad="P$1"/>
-<contactref element="U$16" pad="P$2"/>
-<contactref element="U$16" pad="P$3"/>
 <polygon width="0.1524" layer="1">
 <vertex x="22.86" y="86.36"/>
 <vertex x="39.37" y="86.36"/>
@@ -3715,66 +3710,6 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="F7" pad="2"/>
 <wire x1="19.9" y1="34.29" x2="23.876" y2="34.29" width="0.4064" layer="1"/>
-<contactref element="U$17" pad="P$116"/>
-<contactref element="U$17" pad="P$65"/>
-<contactref element="U$17" pad="P$120"/>
-<contactref element="U$17" pad="P$61"/>
-<contactref element="U$17" pad="P$67"/>
-<contactref element="U$17" pad="P$60"/>
-<contactref element="U$17" pad="P$108"/>
-<contactref element="U$17" pad="P$118"/>
-<contactref element="U$17" pad="P$63"/>
-<contactref element="U$17" pad="P$51"/>
-<contactref element="U$17" pad="P$79"/>
-<contactref element="U$17" pad="P$68"/>
-<contactref element="U$17" pad="P$77"/>
-<contactref element="U$17" pad="P$66"/>
-<contactref element="U$17" pad="P$56"/>
-<contactref element="U$17" pad="P$72"/>
-<contactref element="U$17" pad="P$78"/>
-<contactref element="U$17" pad="P$107"/>
-<contactref element="U$17" pad="P$74"/>
-<contactref element="U$17" pad="P$104"/>
-<contactref element="U$17" pad="P$119"/>
-<contactref element="U$17" pad="P$71"/>
-<contactref element="U$17" pad="P$76"/>
-<contactref element="U$17" pad="P$53"/>
-<contactref element="U$17" pad="P$59"/>
-<contactref element="U$17" pad="P$75"/>
-<contactref element="U$17" pad="P$101"/>
-<contactref element="U$17" pad="P$64"/>
-<contactref element="U$17" pad="P$102"/>
-<contactref element="U$17" pad="P$113"/>
-<contactref element="U$17" pad="P$114"/>
-<contactref element="U$17" pad="P$58"/>
-<contactref element="U$17" pad="P$73"/>
-<contactref element="U$17" pad="P$70"/>
-<contactref element="U$17" pad="P$69"/>
-<contactref element="U$17" pad="P$110"/>
-<contactref element="U$17" pad="P$80"/>
-<contactref element="U$17" pad="P$105"/>
-<contactref element="U$17" pad="P$54"/>
-<contactref element="U$17" pad="P$112"/>
-<contactref element="U$17" pad="P$52"/>
-<contactref element="U$17" pad="P$62"/>
-<contactref element="U$17" pad="P$109"/>
-<contactref element="U$17" pad="P$57"/>
-<contactref element="U$17" pad="P$55"/>
-<contactref element="U$17" pad="P$103"/>
-<contactref element="U$17" pad="P$106"/>
-<contactref element="U$17" pad="P$117"/>
-<contactref element="U$17" pad="P$111"/>
-<contactref element="U$17" pad="P$115"/>
-<contactref element="U$17" pad="P$121"/>
-<contactref element="U$17" pad="P$122"/>
-<contactref element="U$17" pad="P$123"/>
-<contactref element="U$17" pad="P$124"/>
-<contactref element="U$17" pad="P$125"/>
-<contactref element="U$17" pad="P$126"/>
-<contactref element="U$17" pad="P$127"/>
-<contactref element="U$17" pad="P$128"/>
-<contactref element="U$17" pad="P$129"/>
-<contactref element="U$17" pad="P$130"/>
 <polygon width="0.4064" layer="1">
 <vertex x="22.86" y="86.106"/>
 <vertex x="22.86" y="94.996"/>
@@ -3786,6 +3721,69 @@ design rules under a new name.</description>
 <vertex x="26.416" y="92.456"/>
 <vertex x="26.416" y="86.106"/>
 </polygon>
+<contactref element="U$3" pad="P$89"/>
+<contactref element="U$3" pad="P$106"/>
+<contactref element="U$3" pad="P$129"/>
+<contactref element="U$3" pad="P$92"/>
+<contactref element="U$3" pad="P$124"/>
+<contactref element="U$3" pad="P$78"/>
+<contactref element="U$3" pad="P$91"/>
+<contactref element="U$3" pad="P$69"/>
+<contactref element="U$3" pad="P$71"/>
+<contactref element="U$3" pad="P$121"/>
+<contactref element="U$3" pad="P$79"/>
+<contactref element="U$3" pad="P$117"/>
+<contactref element="U$3" pad="P$82"/>
+<contactref element="U$3" pad="P$120"/>
+<contactref element="U$3" pad="P$86"/>
+<contactref element="U$3" pad="P$80"/>
+<contactref element="U$3" pad="P$118"/>
+<contactref element="U$3" pad="P$123"/>
+<contactref element="U$3" pad="P$74"/>
+<contactref element="U$3" pad="P$125"/>
+<contactref element="U$3" pad="P$87"/>
+<contactref element="U$3" pad="P$102"/>
+<contactref element="U$3" pad="P$81"/>
+<contactref element="U$3" pad="P$90"/>
+<contactref element="U$3" pad="P$75"/>
+<contactref element="U$3" pad="P$103"/>
+<contactref element="U$3" pad="P$104"/>
+<contactref element="U$3" pad="P$108"/>
+<contactref element="U$3" pad="P$112"/>
+<contactref element="U$3" pad="P$72"/>
+<contactref element="U$3" pad="P$105"/>
+<contactref element="U$3" pad="P$110"/>
+<contactref element="U$3" pad="P$109"/>
+<contactref element="U$3" pad="P$127"/>
+<contactref element="U$3" pad="P$128"/>
+<contactref element="U$3" pad="P$64"/>
+<contactref element="U$3" pad="P$116"/>
+<contactref element="U$3" pad="P$76"/>
+<contactref element="U$3" pad="P$114"/>
+<contactref element="U$3" pad="P$65"/>
+<contactref element="U$3" pad="P$73"/>
+<contactref element="U$3" pad="P$88"/>
+<contactref element="U$3" pad="P$66"/>
+<contactref element="U$3" pad="P$85"/>
+<contactref element="U$3" pad="P$84"/>
+<contactref element="U$3" pad="P$67"/>
+<contactref element="U$3" pad="P$122"/>
+<contactref element="U$3" pad="P$77"/>
+<contactref element="U$3" pad="P$130"/>
+<contactref element="U$3" pad="P$126"/>
+<contactref element="U$3" pad="P$107"/>
+<contactref element="U$3" pad="P$111"/>
+<contactref element="U$3" pad="P$70"/>
+<contactref element="U$3" pad="P$119"/>
+<contactref element="U$3" pad="P$83"/>
+<contactref element="U$3" pad="P$63"/>
+<contactref element="U$3" pad="P$115"/>
+<contactref element="U$3" pad="P$101"/>
+<contactref element="U$3" pad="P$68"/>
+<contactref element="U$3" pad="P$113"/>
+<contactref element="U$3" pad="P$1"/>
+<contactref element="U$3" pad="P$3"/>
+<contactref element="U$3" pad="P$2"/>
 </signal>
 <signal name="N$5">
 <contactref element="R3" pad="2"/>
@@ -3811,7 +3809,6 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="SCL">
-<contactref element="U$16" pad="P$12"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U$12" pad="4"/>
 <wire x1="21.502" y1="6.858" x2="21.372" y2="6.728" width="0.4064" layer="1"/>
@@ -3826,9 +3823,9 @@ design rules under a new name.</description>
 <wire x1="14.2916" y1="4.7576" x2="16.262" y2="6.728" width="0.4064" layer="16"/>
 <wire x1="6.18380625" y1="4.7576" x2="14.2916" y2="4.7576" width="0.4064" layer="16"/>
 <wire x1="1.27" y1="99.822" x2="1.27" y2="8.382" width="0.4064" layer="16"/>
+<contactref element="U$3" pad="P$12"/>
 </signal>
 <signal name="SDA">
-<contactref element="U$16" pad="P$6"/>
 <contactref element="R15" pad="2"/>
 <contactref element="U$12" pad="3"/>
 <wire x1="21.502" y1="8.89" x2="16.424" y2="8.89" width="0.4064" layer="1"/>
@@ -3853,12 +3850,12 @@ design rules under a new name.</description>
 <wire x1="41.148" y1="97.3272125" x2="41.3686" y2="97.1066125" width="0.4064" layer="16"/>
 <wire x1="41.3686" y1="95.5374" x2="42.799" y2="94.107" width="0.4064" layer="16"/>
 <wire x1="41.3686" y1="97.1066125" x2="41.3686" y2="95.5374" width="0.4064" layer="16"/>
+<contactref element="U$3" pad="P$6"/>
 </signal>
 <signal name="48_I_ANALOG">
 <contactref element="U$1" pad="7"/>
 <contactref element="C2" pad="2"/>
 <contactref element="R4" pad="2"/>
-<contactref element="U$16" pad="P$5"/>
 <wire x1="156.376" y1="15.24" x2="156.376" y2="15.113" width="0.6096" layer="16"/>
 <wire x1="156.376" y1="15.113" x2="153.2382" y2="15.113" width="0.6096" layer="16"/>
 <wire x1="156.376" y1="16.764" x2="156.376" y2="15.24" width="0.6096" layer="16"/>
@@ -3880,6 +3877,7 @@ design rules under a new name.</description>
 <wire x1="41.402" y1="94.996" x2="40.513" y2="94.107" width="0.4064" layer="1"/>
 <wire x1="40.513" y1="94.107" x2="40.259" y2="94.107" width="0.4064" layer="1"/>
 <wire x1="42.164" y1="98.298" x2="41.402" y2="97.536" width="0.4064" layer="1"/>
+<contactref element="U$3" pad="P$5"/>
 </signal>
 <signal name="ON/OFF">
 <contactref element="U$20" pad="ON/OFF"/>

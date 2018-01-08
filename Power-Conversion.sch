@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -202,219 +202,129 @@
 <vertex x="2.5654" y="2.567"/>
 </polygon>
 </package>
-<package name="ESC-CONNECTOR">
-<pad name="P$1" x="-1.27" y="-30.48" drill="1"/>
-<pad name="P$2" x="1.27" y="-30.48" drill="1"/>
-<pad name="P$3" x="-1.27" y="-27.94" drill="1"/>
-<pad name="P$4" x="1.27" y="-27.94" drill="1"/>
-<pad name="P$5" x="-1.27" y="-25.4" drill="1"/>
-<pad name="P$6" x="1.27" y="-25.4" drill="1"/>
-<pad name="P$7" x="-1.27" y="-22.86" drill="1"/>
-<pad name="P$8" x="1.27" y="-22.86" drill="1"/>
-<pad name="P$9" x="-1.27" y="-20.32" drill="1"/>
-<pad name="P$10" x="1.27" y="-20.32" drill="1"/>
-<pad name="P$11" x="-1.27" y="-17.78" drill="1"/>
-<pad name="P$12" x="1.27" y="-17.78" drill="1"/>
-<pad name="P$13" x="-1.27" y="-15.24" drill="1"/>
-<pad name="P$14" x="1.27" y="-15.24" drill="1"/>
-<pad name="P$15" x="-1.27" y="-12.7" drill="1"/>
-<pad name="P$16" x="1.27" y="-12.7" drill="1"/>
-<pad name="P$17" x="-1.27" y="-10.16" drill="1"/>
-<pad name="P$18" x="1.27" y="-10.16" drill="1"/>
-<pad name="P$19" x="-1.27" y="-7.62" drill="1"/>
-<pad name="P$20" x="1.27" y="-7.62" drill="1"/>
-<pad name="P$21" x="-1.27" y="-5.08" drill="1"/>
-<pad name="P$22" x="1.27" y="-5.08" drill="1"/>
-<pad name="P$23" x="-1.27" y="-2.54" drill="1"/>
-<pad name="P$24" x="1.27" y="-2.54" drill="1"/>
-<pad name="P$25" x="-1.27" y="0" drill="1"/>
-<pad name="P$26" x="1.27" y="0" drill="1"/>
-<pad name="P$27" x="-1.27" y="2.54" drill="1"/>
-<pad name="P$28" x="1.27" y="2.54" drill="1"/>
-<pad name="P$29" x="-1.27" y="5.08" drill="1"/>
-<pad name="P$30" x="1.27" y="5.08" drill="1"/>
-<pad name="P$31" x="-1.27" y="7.62" drill="1"/>
-<pad name="P$32" x="1.27" y="7.62" drill="1"/>
-<pad name="P$33" x="-1.27" y="10.16" drill="1"/>
-<pad name="P$34" x="1.27" y="10.16" drill="1"/>
-<pad name="P$35" x="-1.27" y="12.7" drill="1"/>
-<pad name="P$36" x="1.27" y="12.7" drill="1"/>
-<pad name="P$37" x="-1.27" y="15.24" drill="1"/>
-<pad name="P$38" x="1.27" y="15.24" drill="1"/>
-<pad name="P$39" x="-1.27" y="17.78" drill="1"/>
-<pad name="P$40" x="1.27" y="17.78" drill="1"/>
-<pad name="P$41" x="-1.27" y="20.32" drill="1"/>
-<pad name="P$42" x="1.27" y="20.32" drill="1"/>
-<pad name="P$43" x="-1.27" y="22.86" drill="1"/>
-<pad name="P$44" x="1.27" y="22.86" drill="1"/>
-<pad name="P$45" x="-1.27" y="25.4" drill="1"/>
-<pad name="P$46" x="1.27" y="25.4" drill="1"/>
-<pad name="P$47" x="-1.27" y="27.94" drill="1"/>
-<pad name="P$48" x="1.27" y="27.94" drill="1"/>
-<pad name="P$49" x="-1.27" y="30.48" drill="1"/>
-<pad name="P$50" x="1.27" y="30.48" drill="1"/>
-<pad name="P$51" x="-138.684" y="-38.608" drill="1"/>
-<pad name="P$52" x="-136.144" y="-38.608" drill="1"/>
-<pad name="P$53" x="-138.684" y="-36.068" drill="1"/>
-<pad name="P$54" x="-136.144" y="-36.068" drill="1"/>
-<pad name="P$55" x="-138.684" y="-33.528" drill="1"/>
-<pad name="P$56" x="-136.144" y="-33.528" drill="1"/>
-<pad name="P$57" x="-138.684" y="-30.988" drill="1"/>
-<pad name="P$58" x="-136.144" y="-30.988" drill="1"/>
-<pad name="P$59" x="-138.684" y="-28.448" drill="1"/>
-<pad name="P$60" x="-136.144" y="-28.448" drill="1"/>
-<pad name="P$61" x="-138.684" y="-25.908" drill="1"/>
-<pad name="P$62" x="-136.144" y="-25.908" drill="1"/>
-<pad name="P$63" x="-138.684" y="-23.368" drill="1"/>
-<pad name="P$64" x="-136.144" y="-23.368" drill="1"/>
-<pad name="P$65" x="-138.684" y="-20.828" drill="1"/>
-<pad name="P$66" x="-136.144" y="-20.828" drill="1"/>
-<pad name="P$67" x="-138.684" y="-18.288" drill="1"/>
-<pad name="P$68" x="-136.144" y="-18.288" drill="1"/>
-<pad name="P$69" x="-138.684" y="-15.748" drill="1"/>
-<pad name="P$70" x="-136.144" y="-15.748" drill="1"/>
-<pad name="P$71" x="-138.684" y="-13.208" drill="1"/>
-<pad name="P$72" x="-136.144" y="-13.208" drill="1"/>
-<pad name="P$73" x="-138.684" y="-10.668" drill="1"/>
-<pad name="P$74" x="-136.144" y="-10.668" drill="1"/>
-<pad name="P$75" x="-138.684" y="-8.128" drill="1"/>
-<pad name="P$76" x="-136.144" y="-8.128" drill="1"/>
-<pad name="P$77" x="-138.684" y="-5.588" drill="1"/>
-<pad name="P$78" x="-136.144" y="-5.588" drill="1"/>
-<pad name="P$79" x="-138.684" y="-3.048" drill="1"/>
-<pad name="P$80" x="-136.144" y="-3.048" drill="1"/>
-<pad name="P$81" x="-138.684" y="-0.508" drill="1"/>
-<pad name="P$82" x="-136.144" y="-0.508" drill="1"/>
-<pad name="P$83" x="-138.684" y="2.032" drill="1"/>
-<pad name="P$84" x="-136.144" y="2.032" drill="1"/>
-<pad name="P$85" x="-138.684" y="4.572" drill="1"/>
-<pad name="P$86" x="-136.144" y="4.572" drill="1"/>
-<pad name="P$87" x="-138.684" y="7.112" drill="1"/>
-<pad name="P$88" x="-136.144" y="7.112" drill="1"/>
-<pad name="P$89" x="-138.684" y="9.652" drill="1"/>
-<pad name="P$90" x="-136.144" y="9.652" drill="1"/>
-<pad name="P$91" x="-138.684" y="12.192" drill="1"/>
-<pad name="P$92" x="-136.144" y="12.192" drill="1"/>
-<pad name="P$93" x="-138.684" y="14.732" drill="1"/>
-<pad name="P$94" x="-136.144" y="14.732" drill="1"/>
-<pad name="P$95" x="-138.684" y="17.272" drill="1"/>
-<pad name="P$96" x="-136.144" y="17.272" drill="1"/>
-<pad name="P$97" x="-138.684" y="19.812" drill="1"/>
-<pad name="P$98" x="-136.144" y="19.812" drill="1"/>
-<pad name="P$99" x="-138.684" y="22.352" drill="1"/>
-<pad name="P$100" x="-136.144" y="22.352" drill="1"/>
-</package>
-<package name="ESC-PARALLELL">
-<pad name="P$1" x="-1.27" y="-30.48" drill="1"/>
-<pad name="P$2" x="1.27" y="-30.48" drill="1"/>
-<pad name="P$3" x="-1.27" y="-27.94" drill="1"/>
-<pad name="P$4" x="1.27" y="-27.94" drill="1"/>
-<pad name="P$5" x="-1.27" y="-25.4" drill="1"/>
-<pad name="P$6" x="1.27" y="-25.4" drill="1"/>
-<pad name="P$7" x="-1.27" y="-22.86" drill="1"/>
-<pad name="P$8" x="1.27" y="-22.86" drill="1"/>
-<pad name="P$9" x="-1.27" y="-20.32" drill="1"/>
-<pad name="P$10" x="1.27" y="-20.32" drill="1"/>
-<pad name="P$11" x="-1.27" y="-17.78" drill="1"/>
-<pad name="P$12" x="1.27" y="-17.78" drill="1"/>
-<pad name="P$13" x="-1.27" y="-15.24" drill="1"/>
-<pad name="P$14" x="1.27" y="-15.24" drill="1"/>
-<pad name="P$15" x="-1.27" y="-12.7" drill="1"/>
-<pad name="P$16" x="1.27" y="-12.7" drill="1"/>
-<pad name="P$17" x="-1.27" y="-10.16" drill="1"/>
-<pad name="P$18" x="1.27" y="-10.16" drill="1"/>
-<pad name="P$19" x="-1.27" y="-7.62" drill="1"/>
-<pad name="P$20" x="1.27" y="-7.62" drill="1"/>
-<pad name="P$21" x="-1.27" y="-5.08" drill="1"/>
-<pad name="P$22" x="1.27" y="-5.08" drill="1"/>
-<pad name="P$23" x="-1.27" y="-2.54" drill="1"/>
-<pad name="P$24" x="1.27" y="-2.54" drill="1"/>
-<pad name="P$25" x="-1.27" y="0" drill="1"/>
-<pad name="P$26" x="1.27" y="0" drill="1"/>
-<pad name="P$27" x="-1.27" y="2.54" drill="1"/>
-<pad name="P$28" x="1.27" y="2.54" drill="1"/>
-<pad name="P$29" x="-1.27" y="5.08" drill="1"/>
-<pad name="P$30" x="1.27" y="5.08" drill="1"/>
-<pad name="P$31" x="-1.27" y="7.62" drill="1"/>
-<pad name="P$32" x="1.27" y="7.62" drill="1"/>
-<pad name="P$33" x="-1.27" y="10.16" drill="1"/>
-<pad name="P$34" x="1.27" y="10.16" drill="1"/>
-<pad name="P$35" x="-1.27" y="12.7" drill="1"/>
-<pad name="P$36" x="1.27" y="12.7" drill="1"/>
-<pad name="P$37" x="-1.27" y="15.24" drill="1"/>
-<pad name="P$38" x="1.27" y="15.24" drill="1"/>
-<pad name="P$39" x="-1.27" y="17.78" drill="1"/>
-<pad name="P$40" x="1.27" y="17.78" drill="1"/>
-<pad name="P$41" x="-1.27" y="20.32" drill="1"/>
-<pad name="P$42" x="1.27" y="20.32" drill="1"/>
-<pad name="P$43" x="-1.27" y="22.86" drill="1"/>
-<pad name="P$44" x="1.27" y="22.86" drill="1"/>
-<pad name="P$45" x="-1.27" y="25.4" drill="1"/>
-<pad name="P$46" x="1.27" y="25.4" drill="1"/>
-<pad name="P$47" x="-1.27" y="27.94" drill="1"/>
-<pad name="P$48" x="1.27" y="27.94" drill="1"/>
-<pad name="P$49" x="-1.27" y="30.48" drill="1"/>
-<pad name="P$50" x="1.27" y="30.48" drill="1"/>
-<pad name="P$101" x="-143.764" y="-3.048" drill="1"/>
-<pad name="P$102" x="-143.764" y="-5.588" drill="1"/>
-<pad name="P$103" x="-143.764" y="-8.128" drill="1"/>
-<pad name="P$104" x="-143.764" y="-10.668" drill="1"/>
-<pad name="P$105" x="-143.764" y="-13.208" drill="1"/>
-<pad name="P$106" x="-143.764" y="-15.748" drill="1"/>
-<pad name="P$107" x="-143.764" y="-18.288" drill="1"/>
-<pad name="P$108" x="-143.764" y="-20.828" drill="1"/>
-<pad name="P$109" x="-143.764" y="-23.368" drill="1"/>
-<pad name="P$110" x="-143.764" y="-25.908" drill="1"/>
-<pad name="P$111" x="-143.764" y="-28.448" drill="1"/>
-<pad name="P$112" x="-143.764" y="-30.988" drill="1"/>
-<pad name="P$113" x="-143.764" y="-33.528" drill="1"/>
-<pad name="P$114" x="-143.764" y="-36.068" drill="1"/>
-<pad name="P$115" x="-143.764" y="-38.608" drill="1"/>
-<pad name="P$116" x="-141.224" y="-3.048" drill="1"/>
-<pad name="P$117" x="-141.224" y="-5.588" drill="1"/>
-<pad name="P$118" x="-141.224" y="-8.128" drill="1"/>
-<pad name="P$119" x="-141.224" y="-10.668" drill="1"/>
-<pad name="P$120" x="-141.224" y="-13.208" drill="1"/>
-<pad name="P$121" x="-141.224" y="-15.748" drill="1"/>
-<pad name="P$122" x="-141.224" y="-18.288" drill="1"/>
-<pad name="P$123" x="-141.224" y="-20.828" drill="1"/>
-<pad name="P$124" x="-141.224" y="-23.368" drill="1"/>
-<pad name="P$125" x="-141.224" y="-25.908" drill="1"/>
-<pad name="P$126" x="-141.224" y="-28.448" drill="1"/>
-<pad name="P$127" x="-141.224" y="-30.988" drill="1"/>
-<pad name="P$128" x="-141.224" y="-33.528" drill="1"/>
-<pad name="P$129" x="-141.224" y="-36.068" drill="1"/>
-<pad name="P$130" x="-141.224" y="-38.608" drill="1"/>
-<pad name="P$51" x="-138.684" y="-3.048" drill="1"/>
-<pad name="P$52" x="-138.684" y="-5.588" drill="1"/>
-<pad name="P$53" x="-138.684" y="-8.128" drill="1"/>
-<pad name="P$54" x="-138.684" y="-10.668" drill="1"/>
-<pad name="P$55" x="-138.684" y="-13.208" drill="1"/>
-<pad name="P$56" x="-138.684" y="-15.748" drill="1"/>
-<pad name="P$57" x="-138.684" y="-18.288" drill="1"/>
-<pad name="P$58" x="-138.684" y="-20.828" drill="1"/>
-<pad name="P$59" x="-138.684" y="-23.368" drill="1"/>
-<pad name="P$60" x="-138.684" y="-25.908" drill="1"/>
-<pad name="P$61" x="-138.684" y="-28.448" drill="1"/>
-<pad name="P$62" x="-138.684" y="-30.988" drill="1"/>
-<pad name="P$63" x="-138.684" y="-33.528" drill="1"/>
-<pad name="P$64" x="-138.684" y="-36.068" drill="1"/>
-<pad name="P$65" x="-138.684" y="-38.608" drill="1"/>
-<pad name="P$66" x="-136.144" y="-3.048" drill="1"/>
-<pad name="P$67" x="-136.144" y="-5.588" drill="1"/>
-<pad name="P$68" x="-136.144" y="-8.128" drill="1"/>
-<pad name="P$69" x="-136.144" y="-10.668" drill="1"/>
-<pad name="P$70" x="-136.144" y="-13.208" drill="1"/>
-<pad name="P$71" x="-136.144" y="-15.748" drill="1"/>
-<pad name="P$72" x="-136.144" y="-18.288" drill="1"/>
-<pad name="P$73" x="-136.144" y="-20.828" drill="1"/>
-<pad name="P$74" x="-136.144" y="-23.368" drill="1"/>
-<pad name="P$75" x="-136.144" y="-25.908" drill="1"/>
-<pad name="P$76" x="-136.144" y="-28.448" drill="1"/>
-<pad name="P$77" x="-136.144" y="-30.988" drill="1"/>
-<pad name="P$78" x="-136.144" y="-33.528" drill="1"/>
-<pad name="P$79" x="-136.144" y="-36.068" drill="1"/>
-<pad name="P$80" x="-136.144" y="-38.608" drill="1"/>
+<package name="ESC-FULL">
+<pad name="P$1" x="-6.35" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$2" x="-3.81" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$3" x="-1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$4" x="1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$5" x="3.81" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$6" x="6.35" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$7" x="-6.35" y="1.27" drill="1" rot="R90"/>
+<pad name="P$8" x="-3.81" y="1.27" drill="1" rot="R90"/>
+<pad name="P$9" x="-1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$10" x="1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$11" x="3.81" y="1.27" drill="1" rot="R90"/>
+<pad name="P$12" x="6.35" y="1.27" drill="1" rot="R90"/>
+<pad name="P$13" x="140.081" y="-61.849" drill="1"/>
+<pad name="P$14" x="142.621" y="-61.849" drill="1"/>
+<pad name="P$15" x="140.081" y="-59.309" drill="1"/>
+<pad name="P$16" x="142.621" y="-59.309" drill="1"/>
+<pad name="P$17" x="140.081" y="-56.769" drill="1"/>
+<pad name="P$18" x="142.621" y="-56.769" drill="1"/>
+<pad name="P$19" x="140.081" y="-54.229" drill="1"/>
+<pad name="P$20" x="142.621" y="-54.229" drill="1"/>
+<pad name="P$21" x="140.081" y="-51.689" drill="1"/>
+<pad name="P$22" x="142.621" y="-51.689" drill="1"/>
+<pad name="P$23" x="140.081" y="-49.149" drill="1"/>
+<pad name="P$24" x="142.621" y="-49.149" drill="1"/>
+<pad name="P$25" x="140.081" y="-46.609" drill="1"/>
+<pad name="P$26" x="142.621" y="-46.609" drill="1"/>
+<pad name="P$27" x="140.081" y="-44.069" drill="1"/>
+<pad name="P$28" x="142.621" y="-44.069" drill="1"/>
+<pad name="P$29" x="140.081" y="-41.529" drill="1"/>
+<pad name="P$30" x="142.621" y="-41.529" drill="1"/>
+<pad name="P$31" x="140.081" y="-38.989" drill="1"/>
+<pad name="P$32" x="142.621" y="-38.989" drill="1"/>
+<pad name="P$33" x="140.081" y="-36.449" drill="1"/>
+<pad name="P$34" x="142.621" y="-36.449" drill="1"/>
+<pad name="P$35" x="140.081" y="-33.909" drill="1"/>
+<pad name="P$36" x="142.621" y="-33.909" drill="1"/>
+<pad name="P$37" x="140.081" y="-31.369" drill="1"/>
+<pad name="P$38" x="142.621" y="-31.369" drill="1"/>
+<pad name="P$39" x="140.081" y="-28.829" drill="1"/>
+<pad name="P$40" x="142.621" y="-28.829" drill="1"/>
+<pad name="P$41" x="140.081" y="-26.289" drill="1"/>
+<pad name="P$42" x="142.621" y="-26.289" drill="1"/>
+<pad name="P$43" x="140.081" y="-23.749" drill="1"/>
+<pad name="P$44" x="142.621" y="-23.749" drill="1"/>
+<pad name="P$45" x="140.081" y="-21.209" drill="1"/>
+<pad name="P$46" x="142.621" y="-21.209" drill="1"/>
+<pad name="P$47" x="140.081" y="-18.669" drill="1"/>
+<pad name="P$48" x="142.621" y="-18.669" drill="1"/>
+<pad name="P$49" x="140.081" y="-16.129" drill="1"/>
+<pad name="P$50" x="142.621" y="-16.129" drill="1"/>
+<pad name="P$51" x="140.081" y="-13.589" drill="1"/>
+<pad name="P$52" x="142.621" y="-13.589" drill="1"/>
+<pad name="P$53" x="140.081" y="-11.049" drill="1"/>
+<pad name="P$54" x="142.621" y="-11.049" drill="1"/>
+<pad name="P$55" x="140.081" y="-8.509" drill="1"/>
+<pad name="P$56" x="142.621" y="-8.509" drill="1"/>
+<pad name="P$57" x="140.081" y="-5.969" drill="1"/>
+<pad name="P$58" x="142.621" y="-5.969" drill="1"/>
+<pad name="P$59" x="140.081" y="-3.429" drill="1"/>
+<pad name="P$60" x="142.621" y="-3.429" drill="1"/>
+<pad name="P$61" x="140.081" y="-0.889" drill="1"/>
+<pad name="P$62" x="142.621" y="-0.889" drill="1"/>
+<pad name="P$101" x="-2.413" y="-34.417" drill="1"/>
+<pad name="P$102" x="-2.413" y="-36.957" drill="1"/>
+<pad name="P$103" x="-2.413" y="-39.497" drill="1"/>
+<pad name="P$104" x="-2.413" y="-42.037" drill="1"/>
+<pad name="P$105" x="-2.413" y="-44.577" drill="1"/>
+<pad name="P$106" x="-2.413" y="-47.117" drill="1"/>
+<pad name="P$107" x="-2.413" y="-49.657" drill="1"/>
+<pad name="P$108" x="-2.413" y="-52.197" drill="1"/>
+<pad name="P$109" x="-2.413" y="-54.737" drill="1"/>
+<pad name="P$110" x="-2.413" y="-57.277" drill="1"/>
+<pad name="P$111" x="-2.413" y="-59.817" drill="1"/>
+<pad name="P$112" x="-2.413" y="-62.357" drill="1"/>
+<pad name="P$113" x="-2.413" y="-64.897" drill="1"/>
+<pad name="P$114" x="-2.413" y="-67.437" drill="1"/>
+<pad name="P$115" x="-2.413" y="-69.977" drill="1"/>
+<pad name="P$116" x="0.127" y="-34.417" drill="1"/>
+<pad name="P$117" x="0.127" y="-36.957" drill="1"/>
+<pad name="P$118" x="0.127" y="-39.497" drill="1"/>
+<pad name="P$119" x="0.127" y="-42.037" drill="1"/>
+<pad name="P$120" x="0.127" y="-44.577" drill="1"/>
+<pad name="P$121" x="0.127" y="-47.117" drill="1"/>
+<pad name="P$122" x="0.127" y="-49.657" drill="1"/>
+<pad name="P$123" x="0.127" y="-52.197" drill="1"/>
+<pad name="P$124" x="0.127" y="-54.737" drill="1"/>
+<pad name="P$125" x="0.127" y="-57.277" drill="1"/>
+<pad name="P$126" x="0.127" y="-59.817" drill="1"/>
+<pad name="P$127" x="0.127" y="-62.357" drill="1"/>
+<pad name="P$128" x="0.127" y="-64.897" drill="1"/>
+<pad name="P$129" x="0.127" y="-67.437" drill="1"/>
+<pad name="P$130" x="0.127" y="-69.977" drill="1"/>
+<pad name="P$63" x="2.667" y="-34.417" drill="1"/>
+<pad name="P$64" x="2.667" y="-36.957" drill="1"/>
+<pad name="P$65" x="2.667" y="-39.497" drill="1"/>
+<pad name="P$66" x="2.667" y="-42.037" drill="1"/>
+<pad name="P$67" x="2.667" y="-44.577" drill="1"/>
+<pad name="P$68" x="2.667" y="-47.117" drill="1"/>
+<pad name="P$69" x="2.667" y="-49.657" drill="1"/>
+<pad name="P$70" x="2.667" y="-52.197" drill="1"/>
+<pad name="P$71" x="2.667" y="-54.737" drill="1"/>
+<pad name="P$72" x="2.667" y="-57.277" drill="1"/>
+<pad name="P$73" x="2.667" y="-59.817" drill="1"/>
+<pad name="P$74" x="2.667" y="-62.357" drill="1"/>
+<pad name="P$75" x="2.667" y="-64.897" drill="1"/>
+<pad name="P$76" x="2.667" y="-67.437" drill="1"/>
+<pad name="P$77" x="2.667" y="-69.977" drill="1"/>
+<pad name="P$78" x="5.207" y="-34.417" drill="1"/>
+<pad name="P$79" x="5.207" y="-36.957" drill="1"/>
+<pad name="P$80" x="5.207" y="-39.497" drill="1"/>
+<pad name="P$81" x="5.207" y="-42.037" drill="1"/>
+<pad name="P$82" x="5.207" y="-44.577" drill="1"/>
+<pad name="P$83" x="5.207" y="-47.117" drill="1"/>
+<pad name="P$84" x="5.207" y="-49.657" drill="1"/>
+<pad name="P$85" x="5.207" y="-52.197" drill="1"/>
+<pad name="P$86" x="5.207" y="-54.737" drill="1"/>
+<pad name="P$87" x="5.207" y="-57.277" drill="1"/>
+<pad name="P$88" x="5.207" y="-59.817" drill="1"/>
+<pad name="P$89" x="5.207" y="-62.357" drill="1"/>
+<pad name="P$90" x="5.207" y="-64.897" drill="1"/>
+<pad name="P$91" x="5.207" y="-67.437" drill="1"/>
+<pad name="P$92" x="5.207" y="-69.977" drill="1"/>
 </package>
 </packages>
 <symbols>
@@ -482,6 +392,24 @@
 <wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
 </symbol>
+<symbol name="POWER-CONNECTOR(2X6)">
+<wire x1="-5.08" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="20.32" width="0.1524" layer="94"/>
+<pin name="P$1" x="-10.16" y="17.78" length="middle"/>
+<pin name="P$2" x="-10.16" y="12.7" length="middle"/>
+<pin name="P$3" x="-10.16" y="7.62" length="middle"/>
+<pin name="P$4" x="-10.16" y="2.54" length="middle"/>
+<pin name="P$5" x="-10.16" y="-2.54" length="middle"/>
+<pin name="P$6" x="-10.16" y="-7.62" length="middle"/>
+<pin name="P$7" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="P$8" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="P$9" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="P$11" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$12" x="15.24" y="-7.62" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ZENER-SOT23">
@@ -520,24 +448,28 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESC-CONNECTOR">
+<deviceset name="ESC-FULL">
 <gates>
-<gate name="G$1" symbol="ESC-CONNECTOR" x="0" y="0"/>
+<gate name="G$1" symbol="ESC-CONNECTOR" x="0" y="20.32"/>
+<gate name="G$2" symbol="POWER-CONNECTOR(2X6)" x="-2.54" y="-12.7"/>
 </gates>
 <devices>
-<device name="SINGLE" package="ESC-CONNECTOR">
+<device name="" package="ESC-FULL">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50"/>
-<connect gate="G$1" pin="P$2" pad="P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62 P$63 P$64 P$65 P$66 P$67 P$68 P$69 P$70 P$71 P$72 P$73 P$74 P$75 P$76 P$77 P$78 P$79 P$80 P$81 P$82 P$83 P$84 P$85 P$86 P$87 P$88 P$89 P$90 P$91 P$92 P$93 P$94 P$95 P$96 P$97 P$98 P$99 P$100"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PARALLELL" package="ESC-PARALLELL">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50"/>
-<connect gate="G$1" pin="P$2" pad="P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62 P$63 P$64 P$65 P$66 P$67 P$68 P$69 P$70 P$71 P$72 P$73 P$74 P$75 P$76 P$77 P$78 P$79 P$80 P$101 P$102 P$103 P$104 P$105 P$106 P$107 P$108 P$109 P$110 P$111 P$112 P$113 P$114 P$115 P$116 P$117 P$118 P$119 P$120 P$121 P$122 P$123 P$124 P$125 P$126 P$127 P$128 P$129 P$130"/>
+<connect gate="G$1" pin="P$1" pad="P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50 P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62"/>
+<connect gate="G$1" pin="P$2" pad="P$63 P$64 P$65 P$66 P$67 P$68 P$69 P$70 P$71 P$72 P$73 P$74 P$75 P$76 P$77 P$78 P$79 P$80 P$81 P$82 P$83 P$84 P$85 P$86 P$87 P$88 P$89 P$90 P$91 P$92 P$101 P$102 P$103 P$104 P$105 P$106 P$107 P$108 P$109 P$110 P$111 P$112 P$113 P$114 P$115 P$116 P$117 P$118 P$119 P$120 P$121 P$122 P$123 P$124 P$125 P$126 P$127 P$128 P$129 P$130"/>
+<connect gate="G$2" pin="P$1" pad="P$1"/>
+<connect gate="G$2" pin="P$10" pad="P$10"/>
+<connect gate="G$2" pin="P$11" pad="P$11"/>
+<connect gate="G$2" pin="P$12" pad="P$12"/>
+<connect gate="G$2" pin="P$2" pad="P$2"/>
+<connect gate="G$2" pin="P$3" pad="P$3"/>
+<connect gate="G$2" pin="P$4" pad="P$4"/>
+<connect gate="G$2" pin="P$5" pad="P$5"/>
+<connect gate="G$2" pin="P$6" pad="P$6"/>
+<connect gate="G$2" pin="P$7" pad="P$7"/>
+<connect gate="G$2" pin="P$8" pad="P$8"/>
+<connect gate="G$2" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11140,20 +11072,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="MotherBoardParts2">
 <packages>
-<package name="POWER_BRICK_CONNECTORS(2X6)">
-<pad name="P$1" x="-1.27" y="6.35" drill="1"/>
-<pad name="P$2" x="-1.27" y="3.81" drill="1"/>
-<pad name="P$3" x="-1.27" y="1.27" drill="1"/>
-<pad name="P$4" x="-1.27" y="-1.27" drill="1"/>
-<pad name="P$5" x="-1.27" y="-3.81" drill="1"/>
-<pad name="P$6" x="-1.27" y="-6.35" drill="1"/>
-<pad name="P$7" x="1.27" y="6.35" drill="1"/>
-<pad name="P$8" x="1.27" y="3.81" drill="1"/>
-<pad name="P$9" x="1.27" y="1.27" drill="1"/>
-<pad name="P$10" x="1.27" y="-1.27" drill="1"/>
-<pad name="P$11" x="1.27" y="-3.81" drill="1"/>
-<pad name="P$12" x="1.27" y="-6.35" drill="1"/>
-</package>
 <package name="BRICK_TO_POWER_DIST_WHOLE">
 <pad name="GND6" x="-3.81" y="16.51" drill="1" rot="R90"/>
 <pad name="GND7" x="-1.27" y="16.51" drill="1" rot="R90"/>
@@ -11228,24 +11146,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="POWER_BRICK_CONNECTORS(2X6)">
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-20.32" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-20.32" x2="-7.62" y2="-20.32" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-20.32" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
-<pin name="P$1" x="-12.7" y="7.62" length="middle"/>
-<pin name="P$2" x="-12.7" y="2.54" length="middle"/>
-<pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
-<pin name="P$4" x="-12.7" y="-7.62" length="middle"/>
-<pin name="P$5" x="-12.7" y="-12.7" length="middle"/>
-<pin name="P$6" x="-12.7" y="-17.78" length="middle"/>
-<pin name="P$7" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="P$8" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="P$9" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="P$10" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="P$11" x="12.7" y="-12.7" length="middle" rot="R180"/>
-<pin name="P$12" x="12.7" y="-17.78" length="middle" rot="R180"/>
-</symbol>
 <symbol name="BRICK_TO_POWER_DIST_WHOLE">
 <wire x1="-10.16" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="12.7" y2="7.62" width="0.254" layer="94"/>
@@ -11266,32 +11166,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="POWER_BRICK_CONNECTORS(2X6)">
-<gates>
-<gate name="G$1" symbol="POWER_BRICK_CONNECTORS(2X6)" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="POWER_BRICK_CONNECTORS(2X6)">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BRICK_TO_POWER_DIST_WHOLE">
 <gates>
 <gate name="G$1" symbol="BRICK_TO_POWER_DIST_WHOLE" x="0" y="-2.54"/>
@@ -11495,7 +11369,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
-<part name="U$16" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X6)" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="diode" deviceset="DIODE" device=""/>
 <part name="U$18" library="diode" deviceset="DIODE" device=""/>
@@ -11539,7 +11412,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="F7" library="PowerComponents" deviceset="PTC(2920L)" device="" value="10A"/>
 <part name="P+18" library="supply1" deviceset="+12V" device=""/>
-<part name="U$17" library="MotherboardParts" deviceset="ESC-CONNECTOR" device="PARALLELL" value="ESC-CONNECTORPARALLELL"/>
+<part name="U$3" library="MotherboardParts" deviceset="ESC-FULL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11632,12 +11505,11 @@ electronics safe</text>
 <instance part="P+5" gate="1" x="172.72" y="124.46"/>
 <instance part="J1" gate="G$1" x="33.02" y="104.14"/>
 <instance part="J2" gate="G$1" x="33.02" y="99.06"/>
-<instance part="U$16" gate="G$1" x="50.8" y="378.46"/>
-<instance part="GND6" gate="1" x="73.66" y="373.38"/>
+<instance part="GND6" gate="1" x="248.92" y="365.76"/>
 <instance part="U$2" gate="G$1" x="53.34" y="447.04"/>
 <instance part="U$18" gate="G$1" x="142.24" y="441.96"/>
 <instance part="U$19" gate="G$1" x="233.68" y="441.96"/>
-<instance part="GND5" gate="1" x="114.3" y="322.58"/>
+<instance part="GND5" gate="1" x="256.54" y="337.82"/>
 <instance part="U$20" gate="G$1" x="50.8" y="482.6"/>
 <instance part="U$21" gate="G$1" x="139.7" y="482.6"/>
 <instance part="U$22" gate="G$1" x="233.68" y="482.6"/>
@@ -11663,8 +11535,8 @@ electronics safe</text>
 <instance part="P+8" gate="1" x="142.24" y="462.28"/>
 <instance part="P+9" gate="1" x="233.68" y="462.28"/>
 <instance part="P+13" gate="1" x="320.04" y="462.28"/>
-<instance part="P+14" gate="1" x="27.94" y="388.62"/>
-<instance part="P+15" gate="1" x="114.3" y="312.42"/>
+<instance part="P+14" gate="1" x="200.66" y="342.9"/>
+<instance part="P+15" gate="1" x="248.92" y="358.14"/>
 <instance part="R15" gate="G$1" x="187.96" y="520.7" rot="R180"/>
 <instance part="R5" gate="G$1" x="187.96" y="510.54" rot="R180"/>
 <instance part="U$11" gate="&gt;NAME" x="134.62" y="375.92" rot="R90"/>
@@ -11674,7 +11546,8 @@ electronics safe</text>
 <instance part="P+17" gate="VCC" x="119.38" y="111.76"/>
 <instance part="F7" gate="G$1" x="246.38" y="238.76" rot="MR90"/>
 <instance part="P+18" gate="1" x="246.38" y="251.46"/>
-<instance part="U$17" gate="G$1" x="96.52" y="317.5"/>
+<instance part="U$3" gate="G$1" x="228.6" y="360.68"/>
+<instance part="U$3" gate="G$2" x="226.06" y="327.66"/>
 </instances>
 <busses>
 </busses>
@@ -11763,20 +11636,6 @@ electronics safe</text>
 <junction x="193.04" y="93.98"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$7"/>
-<wire x1="63.5" y1="386.08" x2="68.58" y2="386.08" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="386.08" x2="68.58" y2="381" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$8"/>
-<wire x1="68.58" y1="381" x2="63.5" y2="381" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$9"/>
-<wire x1="63.5" y1="375.92" x2="68.58" y2="375.92" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="375.92" x2="68.58" y2="381" width="0.1524" layer="91"/>
-<junction x="68.58" y="381"/>
-<wire x1="68.58" y1="381" x2="73.66" y2="381" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="381" x2="73.66" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$20" gate="G$1" pin="D_GND"/>
 <wire x1="68.58" y1="472.44" x2="73.66" y2="472.44" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -11827,8 +11686,23 @@ electronics safe</text>
 <junction x="142.24" y="370.84"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="P$1"/>
-<wire x1="109.22" y1="325.12" x2="114.3" y2="325.12" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="241.3" y1="368.3" x2="248.92" y2="368.3" width="0.1524" layer="91"/>
+<label x="248.92" y="368.3" size="1.778" layer="95"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$2" pin="P$7"/>
+<wire x1="241.3" y1="345.44" x2="248.92" y2="345.44" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$2" pin="P$9"/>
+<wire x1="241.3" y1="335.28" x2="248.92" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="345.44" x2="248.92" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$2" pin="P$8"/>
+<wire x1="248.92" y1="340.36" x2="248.92" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="340.36" x2="248.92" y2="340.36" width="0.1524" layer="91"/>
+<junction x="248.92" y="340.36"/>
+<wire x1="248.92" y1="340.36" x2="256.54" y2="340.36" width="0.1524" layer="91"/>
+<label x="251.46" y="340.36" size="1.778" layer="95"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -12032,28 +11906,28 @@ electronics safe</text>
 <pinref part="P+13" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
-<wire x1="38.1" y1="386.08" x2="33.02" y2="386.08" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$2"/>
-<wire x1="33.02" y1="386.08" x2="33.02" y2="381" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="381" x2="38.1" y2="381" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P$3"/>
-<wire x1="38.1" y1="375.92" x2="33.02" y2="375.92" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="375.92" x2="33.02" y2="381" width="0.1524" layer="91"/>
-<junction x="33.02" y="381"/>
-<wire x1="33.02" y1="381" x2="27.94" y2="381" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="381" x2="27.94" y2="386.08" width="0.1524" layer="91"/>
-<pinref part="P+14" gate="1" pin="+12V"/>
-</segment>
-<segment>
 <pinref part="F7" gate="G$1" pin="2"/>
 <pinref part="P+18" gate="1" pin="+12V"/>
 <wire x1="246.38" y1="246.38" x2="246.38" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="P$2"/>
-<wire x1="109.22" y1="309.88" x2="114.3" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="P+15" gate="1" pin="+12V"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="241.3" y1="353.06" x2="248.92" y2="353.06" width="0.1524" layer="91"/>
+<label x="248.92" y="353.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$2" pin="P$1"/>
+<wire x1="215.9" y1="345.44" x2="208.28" y2="345.44" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$2" pin="P$3"/>
+<wire x1="215.9" y1="335.28" x2="208.28" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="345.44" x2="208.28" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$2" pin="P$2"/>
+<wire x1="208.28" y1="340.36" x2="208.28" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="340.36" x2="208.28" y2="340.36" width="0.1524" layer="91"/>
+<junction x="208.28" y="340.36"/>
+<wire x1="208.28" y1="340.36" x2="200.66" y2="340.36" width="0.1524" layer="91"/>
+<label x="200.66" y="340.36" size="1.778" layer="95"/>
+<pinref part="P+14" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12084,11 +11958,6 @@ electronics safe</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$12"/>
-<wire x1="63.5" y1="360.68" x2="73.66" y2="360.68" width="0.1524" layer="91"/>
-<label x="68.58" y="360.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="510.54" x2="177.8" y2="510.54" width="0.1524" layer="91"/>
 <label x="177.8" y="510.54" size="1.778" layer="95"/>
@@ -12098,13 +11967,13 @@ electronics safe</text>
 <wire x1="139.7" y1="332.74" x2="152.4" y2="332.74" width="0.1524" layer="91"/>
 <label x="142.24" y="332.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$2" pin="P$12"/>
+<wire x1="241.3" y1="320.04" x2="248.92" y2="320.04" width="0.1524" layer="91"/>
+<label x="246.38" y="320.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="U$16" gate="G$1" pin="P$6"/>
-<wire x1="38.1" y1="360.68" x2="27.94" y2="360.68" width="0.1524" layer="91"/>
-<label x="27.94" y="360.68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="520.7" x2="177.8" y2="520.7" width="0.1524" layer="91"/>
@@ -12114,6 +11983,11 @@ electronics safe</text>
 <pinref part="U$12" gate="G$1" pin="3"/>
 <wire x1="139.7" y1="335.28" x2="152.4" y2="335.28" width="0.1524" layer="91"/>
 <label x="142.24" y="335.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$2" pin="P$6"/>
+<wire x1="215.9" y1="320.04" x2="208.28" y2="320.04" width="0.1524" layer="91"/>
+<label x="208.28" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="48_I_ANALOG" class="0">
@@ -12129,9 +12003,9 @@ electronics safe</text>
 <label x="175.26" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$5"/>
-<wire x1="38.1" y1="365.76" x2="20.32" y2="365.76" width="0.1524" layer="91"/>
-<label x="20.32" y="365.76" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$2" pin="P$5"/>
+<wire x1="215.9" y1="325.12" x2="208.28" y2="325.12" width="0.1524" layer="91"/>
+<label x="198.12" y="325.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ON/OFF" class="0">
