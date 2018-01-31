@@ -8218,10 +8218,10 @@ design rules under a new name.</description>
 <attribute name="BOM" value="INCLUDE" x="158.75" y="7.239" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PARTNO" value="SUM90P10-19L-E3CT-ND" x="158.75" y="7.239" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0603-RES" value="" x="167.894" y="37.592" rot="R180"/>
+<element name="R1" library="SparkFun-Passives" package="0603-RES" value="1 Mohm" x="167.894" y="37.592" rot="R180"/>
 <element name="R10" library="resistor" package="R0603" value="470" x="19.05" y="34.29"/>
 <element name="R11" library="resistor" package="R0603" value="470" x="15.748" y="29.718" rot="R180"/>
-<element name="R2" library="SparkFun-Passives" package="0603-RES" value="" x="161.798" y="30.226" rot="R270"/>
+<element name="R2" library="SparkFun-Passives" package="0603-RES" value="10 kohm" x="161.798" y="30.226" rot="R270"/>
 <element name="R3" library="resistor" package="R0603" value="1M" x="143.256" y="4.318" rot="MR180">
 <attribute name="BOM" value="INCLUDE" x="143.256" y="4.318" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="1.00MHCT-ND" x="143.256" y="4.318" size="1.778" layer="28" rot="MR180" display="off"/>

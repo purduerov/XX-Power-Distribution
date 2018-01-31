@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11380,8 +11380,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$6" library="MotherboardParts" deviceset="ZENER-SOT23" device="" value="22V">
 <attribute name="PN-DIGI" value="BZX84C22LT1GOSCT-ND"/>
 </part>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1 Mohm"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10 kohm"/>
 <part name="U$7" library="MotherboardParts" deviceset="NMOSFET-DPAK" device=""/>
 <part name="U$9" library="PowerComponents" deviceset="SWITCHMODE_SCHOTTKY" device=""/>
 <part name="U7" library="PowerComponents" deviceset="LM2678" device=""/>
