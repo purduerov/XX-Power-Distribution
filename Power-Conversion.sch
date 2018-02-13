@@ -11027,6 +11027,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+12V" urn="urn:adsk.eagle:symbol:26931/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -11059,6 +11067,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+12V" urn="urn:adsk.eagle:component:26959/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -11474,6 +11495,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13761,6 +13786,10 @@ electronics safe</text>
 <instance part="JP1" gate="G$1" x="88.9" y="337.82"/>
 <instance part="JP2" gate="G$1" x="88.9" y="317.5"/>
 <instance part="J3" gate="G$1" x="58.42" y="104.14"/>
+<instance part="J4" gate="G$1" x="309.88" y="124.46"/>
+<instance part="J7" gate="G$1" x="309.88" y="119.38"/>
+<instance part="P+1" gate="1" x="294.64" y="129.54"/>
+<instance part="GND5" gate="1" x="294.64" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -13905,17 +13934,11 @@ electronics safe</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$2" pin="P$12"/>
-<wire x1="322.58" y1="320.04" x2="330.2" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$2" pin="P$11"/>
-<wire x1="322.58" y1="325.12" x2="330.2" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="325.12" x2="330.2" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$2" pin="P$10"/>
-<wire x1="322.58" y1="330.2" x2="330.2" y2="330.2" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="330.2" x2="330.2" y2="325.12" width="0.1524" layer="91"/>
-<junction x="330.2" y="325.12"/>
-<wire x1="330.2" y1="325.12" x2="335.28" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="119.38" x2="294.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="297.18" y="119.38" size="1.778" layer="95"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="294.64" y1="119.38" x2="294.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14129,17 +14152,11 @@ electronics safe</text>
 <pinref part="P+24" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$2" pin="P$4"/>
-<wire x1="297.18" y1="330.2" x2="289.56" y2="330.2" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="330.2" x2="289.56" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$2" pin="P$6"/>
-<wire x1="289.56" y1="325.12" x2="289.56" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="320.04" x2="297.18" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$2" pin="P$5"/>
-<wire x1="297.18" y1="325.12" x2="289.56" y2="325.12" width="0.1524" layer="91"/>
-<junction x="289.56" y="325.12"/>
-<wire x1="289.56" y1="325.12" x2="284.48" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="P+23" gate="1" pin="+12V"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="124.46" x2="294.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="297.18" y="124.46" size="1.778" layer="95"/>
+<pinref part="P+1" gate="1" pin="+12V"/>
+<wire x1="294.64" y1="124.46" x2="294.64" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
