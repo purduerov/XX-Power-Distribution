@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12379,6 +12379,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14670,6 +14671,7 @@ electronics safe</text>
 <instance part="GND5" gate="1" x="294.64" y="114.3"/>
 <instance part="TP1" gate="G$1" x="190.5" y="360.68" rot="R270"/>
 <instance part="TP2" gate="G$1" x="190.5" y="350.52" rot="R270"/>
+<instance part="TP3" gate="G$1" x="190.5" y="342.9" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -14881,6 +14883,11 @@ electronics safe</text>
 <wire x1="142.24" y1="381" x2="142.24" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="381" x2="142.24" y2="381" width="0.1524" layer="91"/>
 <junction x="142.24" y="381"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="193.04" y1="342.9" x2="203.2" y2="342.9" width="0.1524" layer="91"/>
+<label x="198.12" y="342.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$25" class="0">
